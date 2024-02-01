@@ -1,0 +1,866 @@
+===Introduction===
+On Friday, October 30, 1998, I sent Valve co-founder Gabe Newell an email from the computer lab at the University of Southern California.  “Thanks for taking the time to show me around. I had a great time,” I tapped into the keyboard.
+
+I’m not quite sure why I saved that email, or why I kept five different alpha and beta discs from the original Half-Life.  Sensing Valve Software was up to something special, I spent the next few months of my sophomore year writing “The Final Hours of Half-Life,” a behind the scenes look at the making of that game.
+
+Over the past 22 years, I’ve chronicled the evolution of Valve with stories about the making of Half-Life 2 (2004) and Portal 2 (2011). Now, nine years later, we return to Valve for “The Final Hours of Half-Life: Alyx.” This story details the past decade inside the company and the decision to return to Half-Life, a franchise that seemed lost to the ages.
+
+I never wrote “The Final Hours of Half-Life” intending to start an anthology spanning multiple decades. Now, looking back, I’m honored to help chronicle an essential part of video game history. In some ways, I feel like Michael Apted, the director of the Up documentary series, who has tracked the lives of the same 14 British children every seven years from the age of 7 up until 63 (and still counting).
+
+Valve is a different place than the scrappy startup I visited in 1997. Back then, I sat on the floor of Gabe’s office as he and his wife assembled Half-Life manuals and dreamed of winning Game of the Month from PC Gamer.
+
+Today Valve is one of the game industry’s most powerful companies -- but certainly not its most prolific or understood. The company’s self-professed, no-hierarchy organizational structure has led to inefficiencies and periods of creative drought. But ultimately, you can’t argue with the result: Half-Life: Alyx is a shining example of what Valve does at its best. 
+
+With every “Final Hours,” I try to make use of new technologies to bring you closer to the game and the people behind it. Special thanks to David Clark, our incredible Unity software developer, and Chuck Kerr, our talented designer, for helping bring my vision for this Steam app to life.
+
+Telling this story would not be possible without the unwavering trust of everyone at Valve. Early on in the project, Greg Coomer, Robin Walker, and Kaci Aitchison Boyle walked me into a team meeting and told everyone to be open and honest about everything – team dynamics, canceled projects, and the overall creative process. For months, I walked around the office and intervie-wed the team in an unstructured and unsupervised way. Thanks to Gabe, Erik Johnson, Doug Lombardi, Jake Rodkin, Roland Shaw, Greg, Robin, Kaci, and everyone at Valve for being so open with me – and your customers. And thanks to my friends and family for their patience. I oversubscribed myself by taking on this project, but Valve’s return to Half-Life is something I simply couldn’t turn down.
+
+I hope that, no matter what, this story inspires you to see how, after a decade, it is possible to return to something you love and make it even better.  
+
+Thanks for reading,
+
+Geoff
+
+===Chapter 1===
+When he was nine years old in 1998, James “Jay” Benson would close his eyes and imagine the immersive thrill of playing a specific video game. Growing up the son of a divorced primary school teacher and a Royal Air Force navigator on an AWACS aircraft, Benson, most of the time, lived at his Mum’s house in Southport, England, with nary a computer in sight. But every other weekend, Jay visited Dad and Dad’s PC on the RAF Waddington base. On most Saturdays, Benson and his Dad went fishing or took a bike ride around the shed. But if Jay – or Jazzman, as his Dad called him – was being really honest, all he wanted to do was boot up his Pop’s PC and stand inside his dream: A video game named Half-Life. 
+
+Since he could only sneak in a couple of hours of gameplay every other weekend, it took young Benson over six months to maneuver his way out of the Black Mesa Research Facility, meet the G-Man, and finish Half-Life (and that was only after carefully copying in his saved game files not to erase his Dad’s). To Jay Benson, and to millions of gamers around the world, playing Half-Life, with its alchemic blend of genre-defining narrative, intense combat, and vibrant ambiance, was a formative experience. Half-Life has cascaded through gaming and popular culture for more than two decades.
+
+Some people play and appreciate video games from a distance, treating them as no more than an escapist hobby. Jay Benson, it turns out, is not one of those people. Even in the years after Half-Life’s release, Benson couldn’t stop thinking about the game’s most resonant moments, which tumbled through his mind like lucid dreams.
+
+When he flunked out of University at age 17 and started serving baked beans to old ladies at a local cafe, Benson sat in the break room, closed his eyes, and started daydreaming once again. This time he set an audacious personal goal: In three years, he told himself, he was going to get a job working at Valve, one of the most venerated game developers in the world.
+
+There was just one problem. Or perhaps many. You see, Jay didn’t have any particular game design skills beyond bashing together what might charitably be described as fanfic levels in the RPG game Neverwinter Nights. He didn’t program. He didn’t draw, although his girlfriend Jenni thought him to be a very creative individual. Undeterred, Jazzman flew to the Game Developers Conference in San Francisco to hone, or perhaps better put, to discover his unrevealed craft. His first stop? A game design talk by Robin Walker, a Valve developer behind Team Fortress 2.
+
+Galvanized by Walker’s one-hour GDC session, Benson spun into action. He described his mindset to the KritzKast Team Fortress podcast in 2010. “If you want to do something great, feeling relaxed is a bad feeling,’” he said over voice chat. “Why am I going home and browsing the Internet or watching Glee or House when I could be creating something?”
+
+Benson formulated a plan: Over the next year, he would teach himself how to create game animation, working at his girlfriend’s parents’ house from 9 a.m. to 3 a.m. every day. “I am a withered husk of a man, like the charger in Left 4 Dead 2, just one giant arm clicking a mouse,” Benson explained to the podcast.
+
+To track his progress, he wrote down how many frames of animation he completed every day in a Steamworks diary book from GDC. If he didn’t get anything done, he forced himself to write “No finished frames” to memorialize his laziness. On the days he wrote those words, Benson remembered a quote from Valve co-founder Gabe Newell he read in EDGE Magazine: “The greatest fear most people have is being scared for the loss of their abilities.”
+
+On June 10, 2010, Benson posted his first animation to YouTube, a 20-second clip of the Sniper in Team Fortress dancing to C+C Music Factory’s “Gonna Make You Sweat (Everybody Dance Now).” “I would love if somebody working in the business could tell me a ballpark estimation of how my skill level is doing in regard to being a professional proposition. Thanks for your time,” he posted on the Polycount forum as Jazzmann9575 (the 9575, in case you were wondering, was his iPhone PIN at the time).  
+
+Benson had a knack for something. His series of whimsical Team Fortress videos gained hundreds of thousands of views on YouTube. Emboldened, he turned to Half-Life and spent six weeks creating a re-imagined trailer for the original game with fluid new animations for Gordon Freeman’s hands and in-game enemies like head crabs. The video quickly went viral, amassing over 2 million views. “Animator gets bored waiting, starts creating his own version of Half-Life 3,” read the headline on Geek.com
+
+By now, you’re probably wondering when Gabe Newell sends Jay Benson an email inviting him to come work at the dream factory. “Those videos were 100% auditions to get Valve’s attention,” Benson now sheepishly admits. But they didn’t work. The email from Gabe never arrived.
+
+Determined to wheedle his way in, Benson applied for a Valve job at age 21, just as he told himself he would. He didn’t get past the phone interview. The second time he applied, Benson managed to get an in-person interview in Seattle. But after taking beta-blockers due to sheer nerves, he screwed up the interview question about designing a villain for Aquaman. It wasn’t meant to be. Hapless, Benson settled for a $22K-a-year job as a junior animator at Lionhead on the canceled Kinect game Milo and Kate. After getting laid off there, he worked on animation for a series of acclaimed games: The indie darling Ori and the Blind Forest and Campo Santo’s brilliant Firewatch.
+
+No matter what game he was animating, Benson kept a totem by his desk-side: His Dad’s CD jewel case for the original Half-Life with a PC Gamer “Game of the Month” sticker on it. With his Valve dreams thwarted, Benson, like the rest of the gaming world, carried a faint hope for a consolation prize: Getting to play a new Half-Life game, which saw its last installment, Half-Life 2: Episode Two, released 13 years ago in 2007.
+
+It’s Monday, February 3, 2020, the day after the Superbowl at 3 p.m. sharp. Just off the lobby of Valve’s 14th-floor office in Bellevue, Washington, a stream of people begins to file into a large, open room customarily reserved for VR playtesting. In total, more than 80 employees of Valve – nearly one-quarter of the company – are arriving for the weekly status meeting on Half-Life: Alyx. This full-on virtual reality game marks Valve’s triumphant return to both the Half-Life franchise and single-player story-driven games.  
+
+“This is sort of the battle of Helm’s Deep in terms of Valve, the largest team we’ve ever had on a project,” explains Jim Hughes, a Valve designer and Star Wars super-fan who, in his spare time, kit bashes and 3D prints models of TIE Bombers and X-Wings. One day he plans to re-film the Death Star trench run in his living room.
+
+As the developers circle up around product lead Robin Walker, it’s hard not to be struck by the generations represented – and that the team is still predominantly male and white, something Greg Coomer at Valve acknowledges it needs to fix. There are veterans who shipped the original Half-Life more than two decades ago next to those who worked on the equally acclaimed Half-Life 2 in 2004. Sprinkled amongst them are a new batch of developers who joined Valve in the past decade, hoping that they might, one day, get to help create a new Half-Life.
+
+One of the people in that that last category nervously stands off to the side in an oxford shirt, gnawing at the plastic top of a water bottle. His name? The Jazzman himself, Jay Benson, who joined Valve when it acquired Campo Santo in 2018. (We could tell you the story about how, when Benson received access to Valve’s computer network, he summarily downloaded every canceled project and was flagged by IT as a hacker, but we’ll spare him that full embarrassment).
+
+With the group assembled in a semi-circle, Walker stands between two whiteboards filled with words and charts. One board correlates team member names, such as Tristan Reidford, with tasks like finishing the weapon skins. (Tristan refuses to play any section of the game with a headcrab because it freaks him out in VR).  
+
+The other whiteboard is a calendar for the next six weeks broken into three phases: “final development,” “serious bugs only,” and “showstoppers only,” meaning bugs that would cause the game to crash. If everything goes according to plan, it all culminates on March 20, circled in red as the date Half-Life: Alyx will be complete after four years of top-secret development.
+
+As the meeting begins, Walker, an affable Australian with a well-coifed development beard, looks around and addresses the assembled mass. 
+
+“A lot of people are setting their bugs to critical because it’s the default. Please check if it’s really critical before logging it that way,” he says. “Also, someone has been trying to simulate playing the game through with one functional arm. We want to support this, so we need an owner that can take that on.”
+
+“Any update on perf?” Walker asks, shorthand for inquiring if there are any issues with the game’s frame rate dropping, a critical issue in a VR game that needs to run at 90 frames per second in 3D.
+
+“It’s starting to look better than it has in a while, so that’s promising,” responds Michael Coupland, an 11-year veteran of Valve who admits he hasn’t yet shipped a game at Valve because his projects keep getting canceled. “But please prioritize minimum spec machines on your playtests,” he tells the team.
+
+At the opposite end of the room, Dario Casali, who designed levels for the original Half-Life some 22 years ago, throws out a question about the level he’s been heading up. The Vault, as it’s known, is the final sequence, which has gone through a significant overhaul in the past six months.
+
+“Are we still getting external playtesters through?” he asks the room.
+
+“Yes, but the last two couldn’t get through to the end of the game…schedule problems,” explains designer Jeff Lane, who heads up the playtests when he isn’t racing motorcycles.
+
+“Well, I’m not getting enough external data on the last map,” Casali admonishes the group. “We have three weeks to change the balance, and not enough people are playing through it.”
+
+Finally, Walker turns to his right. He looks to Benson, probably not even realizing he inspired him to get into game development a decade ago.
+
+“Jay, how are the gameplay videos coming together?”
+
+Benson, tasked with editing a series of three gameplay videos for YouTube, opens his eyes wide, lifts his chin, and cracks a smile.
+
+“Oh, quite well!” he says. “The subway survival horror video is watchable now, and I’d love some feedback from you guys!”
+
+To some, Half-Life: Alyx represents nothing more than an ambitious – bordering on absurd – virtual reality experiment for a limited audience. (After all, just 1% of Steam customers own a VR headset). But to those who know Valve best, Alyx serves as a much bigger inflection point for one of the video game industry’s most revered studios. Often seen as mysterious, impenetrable, and downright unpredictable, Valve’s traditional game output has dramatically decreased (or rather downright stopped) over the past decade. Flush with billions of dollars in revenues from Steam – Valve’s industry-leading PC distribution service – some wondered if Valve was impervious to its clamoring fanbase and resigned to let Half-Life live on only in our memories. Half-Life: Alyx proves otherwise.
+
+“We get that there’s this public perception that everyone who worked on Half-Life left and that Valve doesn’t know how to make those games any-more,” explains Phil Co, a veteran Valve level designer. “Part of what motivated us on this project was to show everyone what this place is still capable of creating.”
+
+As it turns out, Valve has been creating over the past decade – with little of that work publicly exposed. Half-Life: Alyx, for instance, represents at least Valve’s sixth attempt to do something new with the Half-Life property since Half-Life 2: Episode Two ended in 2007 with the illusory promise of Half-Life 2: Episode Three. Valve is in the unique position of having what poet Adrienne Rich phrased the “gift for burning.” Unlike many other creative studios, Valve has the luxury – or you could argue, the curse – of shutting down and redoing projects ad infinitum until something emerges that is deemed worthy of its customers’ time and money.
+
+Now, for the first time, Valve opens up about the past decade behind closed doors. From the canceled projects, the struggles to create a new game engine, and a bet-the-company push into hardware and virtual reality, shipping Half-Life: Alyx is the bright end of a decade-long season filled with the highest of highs and the lowest of lows.
+
+“A lot of people came to Valve because of what they thought it represented, and it hasn’t always been that place the past decade,” Walker openly admits to me one afternoon. “For those of us who were here in our first decade, we knew Valve could still be that. Some of this project was about trying to give the people who joined Valve in the second decade that experience we felt in the first.”
+
+Walker pauses for a minute and closes his eyes, as if to remember the indescribable yet magical feeling that comes with shipping a genre-defining game. It is perhaps the exact feeling that young, impressionable Jay Benson picked up on when he heard Walker’s talk back in 2010 at the Game Developers Conference.
+
+Walker then continues speaking in a way that suggests, like any good programmer, he’s found a more efficient way to express his thoughts.
+
+“I guess you could say this is the story of how we fixed Valve.”
+
+==Chapter 2==
+Growing up in a town of 800 people in Australia, Robin Walker vividly remembers one daily 90-minute block of time from his childhood. It was the hour and a half between school ending and his parents picking him up to go back to their house, which they built for themselves in the Australian woods.
+
+One day during that time gap, Robin met a young boy named John Cook in the schoolyard. They quickly became friends, as did their dads, who would play guitar together some nights at Robin’s house. Cook and Walker, however, were precocious kids more interested in computers than music. Robin even convinced his parents to buy him a BBC microcomputer. There was, however, a hitch: You couldn’t buy any of the games in Australia. If you wanted to play something, well, you had to code it on your own. Before long, Walker and Cook were programming rudimentary games in high school.
+
+Those skills came in handy at RMIT University in Melbourne, where Cook (known as “Jojie” online) and Walker (“Bro”) shared a dorm room near the men’s bathroom that had a prominent “No Dumping” sign on the door. More interested in games than textbooks, Bro and Jojie both eventually dropped out of college. Walker soon put his coding skills to use as a programmer for remote power stations in Australia and its island state Tasmania.
+
+That paid the bills, but Walker’s real interest in the mid-90s was, not surprisingly, video games. A particular favorite: Duke Nukem 3D, which added fun weapons like pipe bombs and trip mines to the familiar first-person shooter gameplay of DOOM and Quake. Inspired by Duke 3D, Cook, Walker, and a third friend, Ian “Scuba” Caughley, programmed a modification for Quake called Team Fortress. It added nine classes of heroes to the game, including a scout, sniper, demo man, medic, and heavy weapons guy.
+
+Once they uploaded it online, the Internet – and Valve – took notice of their creation, called Quake Team Fortress. Cook and Walker moved to Seattle, joined Valve, and went on to create a modification (or MOD)  for Half-Life similar to what they did for Quake. Team Fortress Classic hit the Internet in 1999, and its sequel, Team Fortress 2, arrived in 2007 with a bright, Pixar-like cartoony look unlike anything else on the market.
+
+Team Fortress’ class-based gameplay won over legions of fans, but it was equally memorable for its online marketplace, where customers crafted hats and items to sell online. One enterprising fan even created “Robin Walkers,” team-colored animal slippers that appear as stylized robin heads worn with woolen socks, to commemorate one of the game’s creators.
+
+Walker, like many other early developers at Valve, came out of the hobbyist MOD scene that sprung up around id Software’s DOOM and Quake. It was easy for Valve to hire community developers because Half-Life’s core technology is a licensed version of id’s game engine. For Half-Life 2, Valve branched off from Quake with its own Source Engine, which gave developers new lighting, physics, rendering, and animation tools. 
+
+Yet as Valve entered its second decade in 2006, the company realized its core Source game technology was starting to show signs of its age. To continue pushing the gaming medium forward, Valve needed to invest in building a whole new set of tools and technology: Source 2 Engine.
+
+Blocks. Wedges. Cylinders. Spikes. No matter you want to create, these shapes are the building blocks for constructive solid geometry, the method a designer uses to build levels for a Source Engine game like Half-Life 2. A mathematical theory named binary space partitioning or BSP trees orders the depth of these geometric objects in a world, thus creating the illusion of a 3D space inside your monitor.
+
+This method of design works fine if you want to create a linear corridor or, say, an office building. But if your game design calls for something outdoors, such as a forest of trees or anything organic, brick-like constructive solid geometry is a particularly restrictive creative palette.
+
+“In Half-Life 2, the walls and floors and ceiling were built with BSP trees, but then we had ‘props’ we jammed into the levels,” explains Jay Stelly, the project lead of Half-Life 2 who is one of Valve’s most senior technical programmers. “Our engineers figured out how to link it all together with lighting and collision, so it worked in Half-Life 2, but we knew we needed to branch off of that process.”
+
+That desire came to a head in 2008 during the development of Half-Life 2: Episode Three, which was in the early stages of production. The development team was struggling to find ways to innovate with the gameplay, especially within the confines of the Source Engine. As more and more of the Episode 3 team moved onto helping ship Left 4 Dead and its sequel a year later, programmers like Stelly saw a window of opportunity to build a new game engine for when Valve returned to Half-Life. 
+
+“For Source 2, we wanted to create a ‘polygon soup,’” Stelly explains.
+
+Instead of building levels with a pre-set group of LEGOs, Source 2 would allow designers to construct levels with the freedom of a paintbrush. In the summer of 2010, Valve finished its first test of Source 2, recreating the rundown Plantation in Left 4 Dead 2’s Swamp Fever campaign with stunning detail. While it was more of a graphic test than a gameplay demo, the Louisianan world featured lush trees, beautiful lighting, and a half-flooded river jetty. The visuals were awe-inspiring and far beyond anything Valve had been able to create in the previous Half-Life – or Left 4 Dead – games.
+
+Everyone at Valve knew the investment in a new game engine was the right long-term approach. No one, however, expected the shift to trigger a dramatic slowdown in game production. Before it flirted with Source 2, Valve shipped a new game every year to customers between 2005 and 2011, ranging from Half-Life to Left 4 Dead to Portal. Games like Team Fortress 2 and Counter-Strike: GO were updated continuously, and the MOBA strategy game Dota 2 was in production, but Valve’s traditional games suddenly stopped after the release of Alien Swarm in 2010 (which for a brief period was themed around Half-Life) and Portal 2 in 2011.
+
+“We convinced ourselves we should go work on engine technology before we worked on another Half-Life or another big game,” recalls David Speyrer, a cabal lead on the original Half-Life 2 who also led development for Episode Two. Speyrer, who rock climbs in his spare time, left 300 days a year of sun in Boulder, Colorado, to come to the rainy confines of Seattle for Valve.  “In retrospect, I wish we would have figured out a way to keep building games and make a new game engine in the background. But that didn’t happen.”
+
+The ambition of building a brand-new game engine was no small task, but it paled in comparison to some of the other bets Valve was about to make. If a series of high-quality, solid, single and multiplayer games defined Valve’s first decade, much grander ambitions fueled the second. Emboldened by the runaway success of its Steam platform, which charges most third party developers a 30% royalty to distribute games on the service, Valve co-founder Gabe Newell began to have even more ambitious dreams for the next decade of Valve.
+
+“We’re frustrated by the lack of innovation in the computer hardware space, so we’re jumping in” read a job listing on Valve’s website in 2012. The innocuous posting was a rather bold procla-mation that Valve had ambitions to do much more than build video games. The way Gabe Newell saw it, a company like Nintendo delivered genre-defining games like Super Mario 64 because it oversaw the full experience – not only the software but also the game hardware. Shigeru Miyamoto wasn’t just designing games – he was building the console and the game at the same time, and that delicate pas de deux is what makes Nintendo games genuinely magical. 
+
+“We wanted to build more core competencies at Valve,” says Greg Coomer, one of the company’s first employees, a brilliant graphic designer who served as one of the face models for Gordon Freeman in the original Half-Life. “We had proven we were great at single-player, semi-narrative first-person shooters. Our new competency was Steam, which allowed us to deliver quicker updates to our customers. To us, making hardware was the natural next step in the service of making our existing customers happier.”
+
+Valve’s hardware ambitions began with a console-like controller for PC players to interact with games on their TVs, and Steam Machines, a failed attempt to create a Linux-based gaming computer. Newell, however, was far from parochial in his view of Valve’s hardware opportunity. He set his sights on forward investing Valve’s Steam profits in something even more speculative: wearable computing.
+
+In the spring of 2012, Valve made its interest public. Writing on the Valve blog, programmer Michael Abrash announced he was beginning to explore experiments with wearable computing.  Hesitant to say Valve would ever ship such a product, Abrash invoked mention of Neal Stephenson’s metaverse in Snow Crash and said he was starting to explore augmented reality, or “Terminator vision” as he described it, as the next frontier in computing.
+
+Soon, what was a skunkworks R&D project turned into a whole floor of R&D at Valve, headed up by an inventor and computer chip designer named Jeri Ellsworth. Tens of millions of dollars would be invested in Valve’s hardware lab to experiment not only with augmented reality but also the potential of virtual reality headsets. In October 2012, the New York Times said Valve’s pivot into hardware was perhaps an “absurdly ambitious — some say foolish — enterprise.”
+
+As Valve’s hardware ambitions ramped up, down in Irvine, California, a young inventor named Palmer Luckey was starting a hardware lab of his own – in his parent’s garage, mind you – as a Kickstarter for Oculus Rift, a virtual reality headset. Newell popped up in the Oculus Rift Kickstarter video in August 2012 and “strongly encouraged” fans to help back the $250K required for the headset, which promised gamers the ability to transport themselves to a different place.
+
+Valve had initially placed its bet on augmented reality, but by 2013 Newell had a change of heart, laid off a good portion of the hardware team, and did a quick pivot to virtual reality.
+
+“The Room,” located inside Valve’s HQ at the Skyline Tower in Bellevue, was the name for a particular office set up to showcase Valve’s cutting-edge VR technology. With a series of black and white QR-like codes printed on the wall (called fiducials), Valve’s VR tech had something Oculus’ didn’t: Presence. Oculus’ Rift headset was more like an immersive window to peer into another world. Valve’s system used cameras on the headset and the fiducials on the wall to track a player’s movements through space. The result? Players in Valve’s prototype VR weren’t just looking at another world – they were walking around inside of it like on Star Trek’s Holodeck. 
+
+Revealing the technology at Steam Dev Days in 2014, Michael Abrash said the idea of presence in VR “could tip the balance of the entire [entertainment] industry toward computer entertainment.”  
+
+Valve, it seemed clear, was about to refashion itself as much more than a game developer.
+
+===Chapter 3===
+To understand just where Valve’s game development teams have been over the past decade, you first need to understand just how the company operates. As Valve said in its publicly available Handbook for New Employees, first released in 2012, working at the company is “a fearless adventure in knowing what to do when no one’s there telling you what to do.” Or, as the website puts it, Valve is “Boss free since 1996.”
+
+Since no one person holds plenary power, the act of making a game becomes an exercise in building natural momentum around a project. At Valve, the coin of the realm is your desk. (All desks are on wheels and roll 
+in and out of development rooms on a moment’s notice). At Valve, a decision or mandate rarely comes rumbling down through the ranks. As Michael Abrash said in a 2012 blog, “there are things that Gabe badly wants the company to do that aren’t happening because no one has signed up to do them.”
+
+The lack of hierarchy can sometimes take a while to accept – and is far from perfect, since certain employees naturally exert more influence due to their seniority or relationships. “I helped my friend plan her wedding on the way to the wedding,” explains Valve engineer Jeff Leinbaum, who also plays trumpet in the Emerald City Jazz Orchestra. “I always made the first decision that could be overwritten: Here are two options, this is the one I’m picking, you can either agree or disagree.” At Valve, however, decisions lie squarely in the hands of employees – there is, in effect, no first decision. “I some-times wish we had a bit more of that first decision here, but the advantage is <cspace=-0.03em>that we do end up getting to do some crazy shit,” Leinbaum admits with a laugh.
+
+As far back as 2013, hives of Valve developers began experimenting with potential game ideas built on the in-development Source 2 game engine. Some were games fans would expect. Others were not, such as Valve’s first role-playing game.
+
+Originally conceived as a new intellectual property, Valve’s role-playing game – called, yes, “RPG” – was inspired by titles like Monster Hunter, Dark Souls, and even The Elder Scrolls. “People wanted to make an RPG game modularly in public, like shipping smaller parts of an experience over time and add features,” explains Tejeev Kohli, a developer who joined Valve to work on Portal 2 and briefly worked on the RPG project. RPG, however, never really left the conceptual stage. At one point, the RPG team experimented with flipping it into a single-player Dota RPG starring Axe, the grunt in the Army of the Red Mist.
+
+Other potential Source 2 projects were more familiar, like an exploration of a new Left 4 Dead game. In 2013, a team of nearly 30 developers dreamed of an open world Left 4 Dead 3. The game, with a story set in Morocco, would have featured hundreds of zombies. But it wasn’t long until the team discovered the Source 2 engine was nowhere near ready to take on such an ambitious project. “Every other playtest, pieces of your base would go missing, and zombies would float in,” remembers Don Holden, a programmer at Valve. 
+
+Beyond RPG and Left 4 Dead, there was another Source 2 project headed up by Dave Speyrer. 
+
+Sitting in a conference room at Valve, Speyrer begins to talk about the genesis of that project, which began in 2013, in broad, general terms.
+
+“We were working on this single-player game that would use proceduralism in concert with crafted experience to create something played in an open-ended way,” he says. 
+
+Robin Walker, who’s also sitting in the room, overhears Speyrer and begins to chuckle.  
+
+“Dave, what was the name of your team again?” he asks with a smirk on his face. “Did your project have a name in its title?”
+
+Speyrer lets out a breath, shakes his head, and looks directly at Walker, realizing what he’s finally about to say.
+
+“Yes, that project was called Half-Life 3.”
+
+While names and numbers often don’t mean much at Valve in the early days of a project’s gestation, Speyrer and a small team spent more than a year prototyping a potential next step for the Half-Life franchise using Source 2. At first, the work involved porting more than 350 “entities” from Half-Life 2 over to the Source 2 engine, such as characters, objects and other files. 
+
+The core idea for Half-Life 3 was to re-birth Half-Life as a more replayable experience. “It was sort of inspired by Left 4 Dead, which was always fun no matter how many times you played it,” Speyrer remembers.
+
+The game would find a building, seal up all the windows so there was only one way in, put a citizen or prisoner somewhere in the building, and then populate the building with enemies,” Speyrer remembers. 
+
+You, as the player, would have to find a way to get into the building and locate the prisoner. The route was naturally different every time. Conceptually, these procedurally generated skirmishes would fit in between more “crafted” story moments that players had grown to love in traditional Half-Life games. 
+
+Some of those crafted moments were likely to feature the G-Man, the mysterious inter-dimensional bureaucrat who’s a hallmark of Half-Life games. In 2010, artist Matt Charlesworth and the team did a top-secret photo scan session with Frank Sheldon, the man whose face formed the basis for G-Man’s look in Half-Life 2. The artists were quite chuffed when Sheldon showed up to the scan session in a full suit and tie. The resulting 3D scans served as a reference point as a team started exploring how to bring character animation to life in Source 2.
+
+Half-Life 3 suffered from a similar issue to Left 4 Dead 3: An unfinished Source 2 engine. “It was hard to build a first-person shooter on Source 2 at the time,” Speyrer recalls. “There was no lighting solution, no save and restore, no visibility solution. A huge amount of tech was needed, and we honestly didn’t get very far.”
+
+With Half-Life 3, Left 4 Dead 3, and an RPG prototype simultaneously in development on an unfinished and unstable Source 2 engine in 2014, something had to give.
+
+“The engine wasn’t in a state for a full team to be on it, much less multiple game teams pulling it in different directions,” Stelly freely admits.
+
+Source 2 was, in some ways, becoming a victim of Brook’s law, a famous software maxim that says adding manpower to a late software project makes it later. It’s a law of limited divisibility. An example: While it takes a woman nine months to make one baby, nine women can’t make a baby in one month. Even if Valve wanted to rapidly ramp up Source 2 development to support all its babies, it soon realized it needed to take a big step back before it could step forward. 
+
+In part due to the uncertainly around Source 2, another team at Valve started work on a project with its own proprietary technology base, a voxel-based game engine. Now referred to internally as A.R.T.I, this fun, light-hearted game – in a similar vein to the Portal series – transported players to a manipulable world with full construction and destruction abilities, not unlike Minecraft. An early demo featured a talking character named King Kevin, voiced in the demos by Valve writer Erik Wolpaw. Players helped the King break out of prison by using their abilities, such as tearing down walls, building bridges, and shrinking animals and objects, to impact the world in real time.
+
+With more than a half-dozen different games in development in 2013 – including Dota 2, Team Fortress, and Counter-Strike – the invisible, self- directed hand of Valve had suddenly led the company in a dizzying  array of directions.
+
+“The way we are set up, the idea is to work on whatever you want,” Robin Walker explains to me one morning near his desk. “It’s an enormous thing to start something new if only two other projects are going on. But if there are ten other projects, it’s a lot easier to create yet another branch.” To borrow a term from aviation, Valve was at risk of falling into an unrecoverable flat spin, driven by too many projects and an unstable Source 2 engine.
+
+Valve’s diluted focus became a recipe for frustration, bordering on disaster. The company entered a season of discontent so disruptive that Walker refers to it by a singular name: The Wilderness.
+
+“There’s a period of time at the start of a project when you sort of don’t know what you are building, especially if you are innovating,” he says one day over lunch in Valve’s expansive 15th-floor café that overlooks the Seattle skyline. “I mean, if you know everything about your game at the start, you must have played something like it before.”
+
+At the time, more than a half-dozen teams were trying to innovate within the limits of a fractured and unstable game engine that couldn’t rapidly prototype ideas. The result?  
+
+“Everyone on a team was closing their eyes and imagining a different vision for each project,” Walker remembers. 
+
+“When that happens, you are in the wilderness, and you only exit it when everyone closes their eyes and imagines similar things. I think, ultimately, game development is a continuum of this,” Walker concludes.
+
+With multiple projects stuck in the wilderness, Valve found itself pulled across numerous dimensions.  “We sort of spread ourselves too thin technologically, and then we got spread too thin game-wise,” admits Michael Coupland.
+
+By the end of 2014, Valve hadn’t shipped a single-player experience in three years. While there were plenty of games in various stages of design, there were no signs of one being ready to release to customers anytime soon. By the end of 2014, the Half-Life 3, Left 4 Dead 3, and RPG projects were all paused until the Source 2 engine became more stable. 
+
+There was, however, one Source 2 project that was about to step out of the wilderness: A demo to reveal the Vive, Valve’s first-ever VR headset.
+
+===Chapter 4===
+“Hello repair associate, and welcome to the robot rehabilitation and wellness center,” a computerized male voice intones. “Our records indicate that you are the inaugural participant in our human diversity outreach program,” you hear while looking around a futuristic repair bay filled with drawers, lights, and high-tech gadgets. Set within the world of Portal’s Aperture Science, Valve’s first Source 2 experience was a quick 5-minute demo to show the potential of virtual reality. It ended with a surprise appearance by GLaDOS, the nefarious and cunning female AI from Portal.
+
+Robot Repair, as it came to be known, was a demo created at Valve to announce the Vive VR headset at the 2015 Game Developers Conference. Conceived and designed by the hardware team at Valve, the Vive was the result of a tight partnership with the Taiwanese electronic giant HTC, who Newell enlisted to manufacture and distribute the headset, set to ship to customers in early 2016.
+
+Building Robot Repair was an opportunity to start exploring just how to build a game in virtual reality – and with Source 2. What conventions from traditional 2D games would carry over into VR? How would you interact with an environment? Answering those questions wasn’t easy, especially since Valve’s VR hardware – including the VR controller – was very much a work in progress. For the first few months of the Robot Repair project in late 2014, the team didn’t even have access to prototype controllers. Instead, to trigger a drawer to open, you had to move forward and hit it with your head.
+
+Robot Repair succeeded in transporting players inside the world of Aperture Science. The actual interaction in the demo, however, was limited. There was no enemy collision or artificial intelligence, for instance, in part because of the state of Source 2.
+
+As Valve looked toward the launch of the Vive in 2016, the development team decided to follow-up on Robot Repair by building a series of mini games to ship alongside the headset. As further evidence of the dire state of the Source 2 engine, they elected to use the popular Unity game engine – not Source 2– to create all the other mini-games for what’s now known as The Lab. 
+
+“We sort of wanted to make the Wii Sports for VR,” remembers Tejeev Kohli, a member of the team. “We had to ship when the headset shipped, so we had a tough deadline for the game.”
+
+With a development period of just eight months, The Lab featured eight VR experiments, including Longbow, an archery game, and Slingshot, a Portal-themed game where players flung personality spheres at a pile of debris, similar in style to Angry Birds.
+
+There was, however, one experiment left on the cutting room floor when The Lab shipped in April 2016. One day at the office, Kohli walks me over to a computer and says he wants me to try something. 
+
+“This is one of our experiments that we didn’t end up shipping,” he says as he hands me a VR headset.
+
+As I pull the VR headset down over my eyes, I realize I am standing inside some kind of gray holodeck-like space. With a controller click, a world rezzes into the frame from a series of blue particles. I instantly realize where I am: inside a simulated City 17 apartment building. And I better duck fast, as I’m in the middle of a gunfight against Combine soldiers that run into the room. As I peer out the window, I see a hulking Strider walk down the city block. This is definitely Half-Life, and I am looking at the bombed-out streets of City 17, a location I haven’t seen for the better part of a decade, now in virtual reality.
+
+“Shooter,” as it was known internally, was Valve’s aborted attempt to create a Half-Life themed experience inside The Lab. Instead of a rich narrative that expanded on the Half-Life story canon, Shooter was an arcade-style shoot-em-up – a series of quick in-universe gunplay scenes starring you as an unknown member of the resistance. 
+
+“Think of it as a Half-Life ride in a theme park, more of a simulation,” explains Jim Murray, one of the artists on the team. “We thought we would be ok using the Half-Life IP in that way – this wasn’t by any means supposed to be Half-Life 3.”
+
+The Shooter prototype, even in its unfinished form, is instantly compelling. It only features previously created Half-Life art assets, so there are no new enemies, weapons, or even locations. Still, to the millions of fans who wanted Valve to dust off the Half-Life property in some way, Shooter, had it shipped, would have been the crown jewel of The Lab.
+
+So why did it never come out? Besides the internal trepidation around touching anything with Half-Life in its name that wasn’t Half-Life 3, the decision to pull Shooter out of The Lab came down to the project’s limited development time. “Even if we pulled the Half-Life IP off it, I don’t think we could have shipped it in time,” admits Kohli.
+
+If nothing else, Shooter inspired Valve to think about creating something new with the Half-Life universe in the VR space. Around the same time, Marc Laidlaw, the writer behind the first two Half-Life games, started work with a small team for another Source 2 VR project set within the Half-Life universe. Laidlaw wanted to build a VR game, codenamed Borealis, set on the bridge of the Borealis, the Aperture Science Research ship mentioned in Half-Life 2. Players would explore the vessel as it ricocheted in time back and forth between the Seven Hour War, the conflict between the Combine and the citizens of earth, and a time set shortly after the events of Half-Life 2: Episode Two. There was even talk of a fun VR mini-game where players would fish off the bow of the ship. Ultimately, Borealis never gained much momentum internally and ended up in the pile of shut down Valve prototypes. Laidlaw himself retired from Valve at the end of 2015 and now lives with his wife on the Hawaiian island of Kauai.
+
+The Lab was a nice win for Valve: a high-quality, shipped product, and a foray into the new and unknown realm of virtual reality game development. And there was good news on the Source 2 front as well. Another internal team had finished porting Valve’s mega-hit strategy game Dota 2 to the Source 2 engine for Dota 2 Reborn. That hopefully meant Source 2 was ready to support full-scale game development.
+
+Feeling encouraged, Robin Walker, Adrian Finol, and a few other developers spun up a mini team for another potential new take on Left 4 Dead in late 2015. Tired of their project names always leaking on the Internet and stirring up breathless fan excitement, the developers simply called the project Hot Dog. But after a few months of work, Walker realized Valve was beginning to repeat its same mistakes with multiple small game projects that might get stuck in the wilderness and never ship. 
+
+“In early 2016, I was sitting in a meeting with the Vive team as they were about to release that product,” Walker says. “And I remember thinking to myself, ‘We, as a team, really should be supporting their efforts with a full-scale VR game.’”
+
+Hot Dog was shelved. And in its place came…The Prototype.
+
+===Chapter 5===
+Most of the time, your job at Valve is to make  great games. But sometimes, since there is no real management layer, employees have to take on the “people stuff” to steer the invisible hand of Valve in a particular direction. By early 2016, it was becoming clear to Robin Walker and Greg Coomer that an intervention of sorts was needed to help re-spark Valve’s creative output.
+
+“We started having a lot of cultural conversations about why we were unhappy,” remembers Coomer, who sometimes goes out and flies kites in Seattle to take his mind off work. “There were just too many things going on at the company to feel like we were healthy as an organization.”
+
+Valve, to be sure, was accomplishing incredible – not to mention incredibly profitable – things. It ran Steam, the dominant PC distribution platform. Vive, the industry-leading VR hardware, had just shipped. DOTA2 was a massive global success as a MOBA. Counter-Strike: GO was maintaining its mantle as one of the most played esports games in the world. Yet even with all that success, cracks were starting to show: A significant new game hadn’t shipped in 5 years, and with the Source 2 engine still in an unfinished state, the company was starting to face significant challenges both recruiting and retaining the best employees. “We sort of became the highest paid blog post writers of all time,” remembers Portal 2 writer Jay Pinkerton, who gave up and quit Valve in 2017 after not shipping a new game for 5 years. 
+
+After spending time talking one on one with developers, Walker and Coomer theorized what it might take to ignite a creative renaissance. 
+
+“One of our big takeaways was that we were spread too thin, we were too diffuse,” Coomer says.
+
+With several small teams experimenting with a variety of game ideas, Valve was at risk of once again spinning up a multitude of experiments that never hit critical mass.
+
+“People were voting with their presence into different little independent initiatives that didn’t have enough structure,” remembers Speyrer.  
+
+The solution, the way Walker and Coomer saw it, was to get Valve aligned around one large project as a point of focus. It needed to be a project with little risk of getting stuck in the so-called wilderness, and ideally, it also needed to help the company’s push into the world of virtual reality.
+
+The Vive was the first but certainly not the last VR headset from Valve’s hardware lab.
+
+“We sort of had to collectively admit we were wrong on the premise that you will be happiest if you work on something you personally want to work on the most,” Walker says. “Instead, we decided as a group that we would all be happier if we worked on a big thing, even if it’s not exactly what we wanted to work on.”
+
+“It was an inversion of the usual thinking,” Coomer admits. “But we needed to put the health of the company first, and VR was a huge bet for Valve overall. It seemed like maybe we could stitch all these things together into one big project.”
+
+There was one obvious idea that would instantly electrify the troops: a new Half-Life project. Valve wasn’t ready to take on considerably large expectations tied to a full-blown Half-Life 3, but the concept of a Half-Life experience within the limited and experimental confines of VR was an intriguingly safe proposition. The scotched Shooter prototype for The Lab had shown that even seeing the world of Half-Life in VR was compelling.
+
+Ever since Half-Life 2: Episode Two ended on a cliffhanger with the death of Black Mesa scientist Eli Vance in 2007, fans have pleaded, begged and hoped Valve would return to the franchise in some way. In 2011, a pair of Canadians camped outside the Valve office with a cardboard sign “Canada 4 the Release of Half-Life 3.” (Newell said hello to the fans, only to deliver the bad news that he had nothing to say about Half-Life 3). The longer the wait, the more hopes dimmed of Valve ever returning to the series that launched the company. By 2016, Half-Life 3 seemed like an impossibly large ask that could never live up to a decade of mounting fan expectations. 
+
+“We always asked ourselves what a new game could bring to Half-Life, and for a long time, we couldn’t answer that,” admits Jay Stelly. “But the idea of doing Half-Life in VR sort of answered the question before we even had to ask it.”  A project like a Half-Life experience in VR would also give the team a forcing function to fully finish Source 2 for first-person action games. “Whatever came after this as a product finally wouldn’t have a tech risk,” says Walker.
+
+The potential perils of making a new Half-Life were outweighed, in Walker’s mind, by the opportunity to start a project around a shared vision. “You just have to imagine Half-Life, but in VR,” he says. “Anyone on the team can close their eyes and imagine that, and therefore it became a less risky design idea to pursue.”
+
+In February 2016, four Valve employees – Robin Walker, Dario Casali, Adrian Finol, and Michael Coupland – started an experiment to see if Half-Life in VR would indeed be a compelling proposition. Referred to as The Prototype or E1M1 – a tip of the hat to DOOM and other shareware action games that were broken into a series of “E”pisodes and “M”issions –  the demo was a ten minute sequence developed in six weeks, on Source 2, with pre-existing Half-Life 2 art assets. 
+
+E1M1 was a rudimentary prototype. The goal was to prove if Half-Life style combat, exploration, and puzzle-solving could translate from traditional keyboard and mouse gameplay to the six degrees of freedom in virtual reality. Using the gloves in Counter-Strike as VR hands, players of The Prototype explored a dimly lit Half-Life sewer environment with a flashlight, battled against headcrabs, and solved puzzles using what Casali refers to as a “comically large” key that had to be put in a lock, and a “comically large” electrical plug the that needed to be dragged into a socket.
+
+E1M1 didn’t have any particular narrative wrapper around it – it was just more Half-Life 2. But anyone who played it could see the “product definition.” As Walker puts it: “It wasn’t a vision of what we could build; it was more the product definition to show that it was uniquely compelling. We could iterate from there.”  Even though the demo was only 10 minutes in length, players were spending upward of 30 or 40 minutes exploring every little aspect of the environment.
+
+As the team began to scope out the Half-Life VR project, they envisaged a game with a limited scope: A 4-5 hour experience in the Half-Life 2 world that would take about a year to develop. To further reduce the art requirements, the team planned only to use existing Half-Life 2 art assets and animation.
+
+HLVR was far from a Half-Life 3. Still, employees who caught wind of the prototype grew cautiously optimistic that Valve might finally get back in the Half-Life business – even if some of them approached Walker and said, ‘Does Gabe really know we are doing this?’ 
+
+New employees who joined Valve in 2016 were in for a similar shock. Dean Tate, a veteran level designer who worked on BioShock, had no idea what Valve was developing when he blindly applied for a design job.
+
+On his first day of work, Tate met Robin Walker in the lobby, eager to receive his first assignment. Walker welcomed him to the family with a handshake and gestured over to a development cabal.
+
+“We thought we’d start you working on Half-Life,” Walker said to Tate, who took a beat as he waited for the gotcha punchline to hit. 
+
+It never did. 
+
+Half-Life was about to emerge from its self-imposed stasis.
+
+===Chapter 6===
+Eli Vance powers up the slide projector. A white  image flashes on the wall of his room, where he had hung a white sheet.
+
+Eli
+There was an illusion of safety, for a time.  And then the Citadel appeared. It happened in a split second, all over the world. A chunk would disappear from the center of a city, to be replaced an instant later by one of these… headquarters for the Combine.
+
+With roughly 20 years between the events of the original Half-Life and its sequel, fans have often wondered what happened between the end of Black Mesa and the Combine takeover of City 17. In an early version of the Half-Life 2 script, novelist Marc Laidlaw fleshed out the intermediary years through a slide show presentation that Eli Vance hastily arranges for Gordon Freeman. While the scene never made it into the final game, if it did, fans would have heard Eli Vance describe the Seven Hour War, a short and brutal battle in which human forces succumbed to their Combine invaders.
+
+As the HLVR team started to think about how its game would fit into the Half-Life canon, the group circled on a fresh and exciting idea: Even if they re-used all the Half-Life 2 assets, what if HLVR was set somewhere in be-tween the first and second games to help explain the rise of the Combine?
+
+“The Portal storms that gave rise to the Combine invasion, what did all that look like?” says Valve artist Rob Briscoe. After Gordon Freeman opened a portal to the Xen multiverse in Half-Life, the Combine exploited that inter-dimensional rift to invade Earth. “Xen flora and fauna was everywhere, and that is why humanity was collapsing. They couldn’t cope with it,” says Valve artist Eric Kirchmer.
+
+Filling in those critical narrative gaps was fertile ground for storytelling, and perhaps most importantly, a prequel wouldn’t carry the weight of anything tied to Episode Three or Half-Life 3. Since HLVR would, naturally, only be playable on VR headsets, making fans wait over a decade for Half-Life 3 only to create it as an exclusive VR sequel would, in the parlance of Valve, not be something that made customers super happy.
+
+Some games spend months in pre-production with heaps of concept art development and lofty story and gameplay discussions. For HLVR, the team wanted to start building levels (or “track” as the team calls it) quickly to ensure the project kept building momentum and stayed on schedule. The last thing anyone wanted was to see HLVR become another one of Valve’s games aimlessly stuck in the wilderness. 
+
+Walker assumed the role of a defacto product lead for HLVR, but at Valve that means little more than becoming a centralized conduit for information sharing and organization. Decisions ultimately rest with the collective team versus one individual who decrees the path forward. In fact, the closest Valve ever gets to creative oversight is its “Overwatch” process, where senior members of the company review a game and provide feedback. It’s up to the team, however, to decide if they want to implement the feedback or ignore it. 
+
+The original product definition for HLVR was to re-use assets already created for Half-Life 2, but the scope naturally started to expand. Still, the team didn’t want to veer too far from what was already known to fans. “You could make an argument that your art direction is sort of done already,” explains Tristan Reidford, an artist who joined Valve for Half-Life 2: Episode Two. “We went back to the original reference photoshoots for Half-Life 2 from Viktor Antonov and started thinking, what would City 17 look like a few years before the events of Half-Life 2?”
+
+One conceptual idea that excited the team was showing the Citadel, the Combine’s massive metallic skyscraper headquarters, under construction. Images of the Stockholm Phone Exchange from the early 1900s, with hundreds of wires leading into a latticework of metal, served as an initial inspiration. 
+
+“We started imagining the under-construction Citadel as this huge LAN party with wires everywhere, sort of like a huge Wi-Fi router,” remembers Reidford.
+
+Similarly, the famous three-legged Strider from Half-Life 2 – which featured prominently in the shelved Shooter VR prototype – would make an appearance in the VR game. By setting the game slightly before the events of Half-Life 2, Reidford and the art team dreamed up a somewhat more primitive Strider named the Construction Strider.
+
+“I remember asking Ted Backman, the designer of the original creature, ‘Are Striders just creatures the Combine jam bits of machinery into?’” Reidford recalls. “And he said that no, the Combine actually scan the Strider in its natural environment and then recreate it synthetically. So for HLVR, we thought we’d make a Strider where the recreation wasn’t quite perfected yet.”
+
+A prequel is a short-handed way to zero in on art direction, but it does create a series of narrative challenges. 
+
+“We wanted players to feel like they accomplished something significant in the game or changed the world state in some way,” says David Speyrer. “But the world state at the beginning of Half-Life 2 is a known thing, so your hands end up being a bit tied.”
+
+Regardless of the plot, everyone knew one Half-Life character had to return: The franchise’s iconic blue-suited enigma, the G-Man. One day at the office, designer Jim Hughes suggested how to tie G-Man into a prequel.
+
+“What if somehow the G-Man is in trouble or prison in the prequel,” Hughes said in a team meeting. “And what you have to do, as the player, is free him so he can bring Gordon back to earth and trigger the events of Half-Life 2?”
+
+With no writer officially assigned to the project, Dave Speyrer put together a small six-person cabal (Valve’s name for an interdisciplinary workgroup) to start thinking about the general story beats of a prequel, which they decided would be five years before Half-Life 2. Everyone knew they wanted to include the G-Man, Striders, an under-construction Citadel, and the Combine in City 17, but how all those pieces fit into an overall narrative was an open debate.
+
+“Back then, we needed to think through the general track of the game,” says Speyrer, “and also one or two major character scenes, known as ‘choreo’ [choreography] moments, so we could explore how to tell stories in VR.” 
+
+Past Half-Life games have starred theoretical physicist Gordon Freeman, a character who never spoke. For the prequel, the team zeroed in on a different hero: Alyx Vance, the popular deuteragonist of Half-Life 2 and a prominent member of the human resistance campaign against the Combine. Since she is a skilled hacker, Alyx’s multitool device was an especially fertile area to explore for new types of VR gameplay such as hacking minigames.
+
+In early concept work, the team dreamed up a Manhack hacking game where Alyx would grab a Combine Manhack drone out of the sky, hack it with her multitool, and throw it back at enemies. “We loved the idea of this ball you would throw that would open up into a robot,” remembers Tejeev Kohli. While the Manhack hacking never made it through the initial prototype stage, the spherical hacking concept shows up as the hacking puzzles that guard the game’s supply lockers.
+
+Speyrer’s story cabal continued to sketch out a rough “spine” for the game’s story. “The elevator pitch in the earliest days was a coming of age story for Alyx,” he recalls. “You saw Alyx in the Half-Life 2 episodes as a highly capable, resourceful, post-apocalyptic hero. But you don’t know how she got to develop those capabilities. HLVR, or Half-Life: Alyx, could tell the story of the first test on her own.”
+
+Initially, the character that would send Alyx on that test was a man named Laszlo. Die-hard fans of Half-Life 2 may remember him as a character briefly featured in Half-Life 2: Episode Two as the “finest mind of his generation,” who gets killed by Antlions in the Sandtraps level. “He was a friend-to-the-family uncle guy who is a little kooky, gives her a gun, and permission to go into the City 17 quarantine zone because there’s a message directed at her from a Vortigaunt cut off from the Vortessence,” explains Speyrer.
+
+The story cabal also brainstormed a concept for the finale, inspired by Jim Hughes’ original idea of the G-Man’s Combine capture. “What would it take to trap the G-Man?” asks Dario Casali. “What kind of facility would the Combine have to build to lock God into a box?” The team conceived of The Vault, a floating prison hoisted in the air because the G-Man’s gravitational influence was too strong to have the facility on the ground.  To capture G-Man, the Combine had to scoop up an entire apartment block that would be sucked into a massive Star Destroyer-sized sky prison.
+
+As Valve headed off to its annual company-wide vacation in Hawaii in April 2016, it was clear the scope of Alyx was beginning to grow well beyond a 4-hour Half-Life 2 VR experience. Privately, some inside Valve wondered if a game designed exclusively for VR warranted the kind of investment it would take to ship what was starting to sound more and more like a full-blown prequel to Half-Life 2.
+
+===Chapter 7===
+Ask anyone at Valve about one of the best perks of the job, and they will invariably respond with the company trip. Far from a corporate offsite, Valve flies all its employees and their families to the south shores of Maui for a relaxing, week-long vacation in April, which effectively shuts down the studio. 
+
+In 2016, just weeks after finishing The Lab and shipping the Vive VR headset with HTC, Valve headed off to Hawaii. For Valve veterans, the trip is mostly an opportunity to spend time with their kids, walk along the beach, and take in the sun, which rarely appears during the gloomy Seattle winter. The trip serves as an informal retreat, with hundreds of developers daydreaming at the beach about the future of the medium.
+
+Most of Valve’s core game developers had grown up in an era of first-person action games like DOOM and Quake. Initially, Valve hired in hobbyist modders who had built quick-paced “WASD” action game levels, named after the W-A-S-D keys on a keyboard that players use to move their character. Those hiring tactics paid off for the first two decades. The company turned first-person action game conventions on their head with the narrative of Half-Life, the team-based tactics of Counter-Strike, and the mind-twisting puzzles of Portal.
+
+Virtual reality, however, was an entirely new medium. VR was a blank canvas of opportunity, but also a unique challenge. The foundation of what made a successful first-person action game didn’t entirely translate to VR. For instance, how does a player navigate an environment without a keyboard or traditional controller? What are new gameplay paradigms unlocked once the player has six degrees of freedom with their hands and their head?
+
+As Robin Walker sat at the pool, he started to consider the opportunity before Valve to perhaps deliver the “killer app” for virtual reality. Valve’s games had always been amazing, but in many ways were built off the shoulders of what id Software had proven with DOOM and Quake. Here, if Valve played its cards right, maybe it could create the “DOOM of VR” as Michael Abrash once put it – a pioneering experience that showed the true potential of an emerging medium. Since the company had also created the Vive headset and controllers, Valve was in a position to be like Nintendo, building software designed alongside the virtual reality hardware, including the input device.
+
+There were exciting problems to solve too. For instance, how would artificial intelligence work in virtual reality? When players can’t sprint at 25 miles per hour as they do in first-person shooters, how do you create a fair and tense firefight, especially in an environment where players expect – and the medium demands – enemies that are more realistic and lifelike?
+
+At the time, some in the gaming industry saw virtual reality as the inevitable future, a medium that would make traditional games look anachronistic by comparison. Others, including some inside of Valve, questioned how big the addressable market would ever get and if the types of games Valve built would effectively translate to VR. People play video games to have a fantasy experience in which they are faster, more capable, and more agile than themselves. But in the early days of VR, you couldn’t always jump higher or run faster. In fact, any sense of fast motion in the first VR games tended to make players sick. The average player would start to feel fatigued after only 20 or 30 minutes in a headset like the Vive.
+
+Valve, however, sits in a unique position to help solve these problems and push the medium forward. Given the success of Steam, Valve can do what Gabe Newell calls “forward investment” into long-term technologies and ideas that may not pay off for years. Put more directly, a game like Half-Life in VR wouldn’t need to be profitable if there’s a greater goal in play: pushing the virtual reality ecosystem forward.  
+
+Still, some inside of Valve were concerned about the small install base of VR headsets and the potential to alienate a large section of Valve’s ardent Half-Life fanbase. Was a large-scale Half-Life VR game the right strategic bet for Valve, or would it, too, eventually fall into the pile of burned ideas that never quite hit the Valve quality bar?
+
+Coomer and Walker were adamant. This had to be a Valve project that shipped. During the Hawaii trip, they casually spent time polling employees who might want to join the project.
+
+Unlike other companies where employees get assigned to projects by managers, Valve employees self-select how their time would best add value to the company. Later, their peers evaluate if they made the right selection. The tables are therefore turned. Often employees have to be convinced by project leads that a particular game is the best way for them to add value to Valve.
+
+“What are you doing next?” Greg Coomer asked veteran Valve sound designer Dave Feise one night in Hawaii, before offering a considerably small nudge. “You should go talk to Robin. He’s working on this game.”
+
+Feise, who had just finished work on The Lab, was intrigued and found Walker around the hotel grounds.
+
+“Yeah, we’re doing this VR game using a bunch of Half-Life 2 assets and they kind of look goofy as hell right now,” Walker told Feise. “And we’re going to need some sounds pretty soon.”
+
+When he returned to Seattle, Feise rolled his desk over to the small Half-Life development room – and spent the next four years meticulously working on the sound design, updating elements like Half-Life’s famous health-station recharge sound to 2020 audio fidelity. 
+
+Others were harder to convince. Composer Mike Morasky spent over an hour grilling Walker with questions about the project before agreeing to work on the game’s music and sound design. 
+
+“I quizzed Robin pretty hard on why this game was actually going to ship and not get canceled,” admits Morasky, who often works out of his home studio in Berkeley, California.
+
+Walker’s response? “This was an immediately compelling product…it’s immediately fun to play even in the prototype stage.”
+
+As the scope of the game expanded and it became clear that high-resolution art assets and new characters would be required, more members of Valve began to question the project’s long-term prospects – and its opportunity cost. At one point, Walker even had to pull aside one senior member 
+of Valve and tell him that his negative attitude about the project’s resource drain was impacting morale.
+
+Cognizant of the internal concerns and resolved to make the project work, the team returned from Hawaii with a renewed sense of focus. 
+
+“How do we get closer to shipping with every week of work we do?” Walker remembers saying to himself.
+
+“Let's not just prototype maps or do concept art. We need to focus ourselves on stuff that is going to ship.”
+
+===Chapter 8===
+Amongst the matrix of development desks on the 14th floor of Valve, one monitor, with a stuffed animal pigeon on top of it, has a note taped  to its front. “In the field until April 06,” it reads in block letters.
+
+Character animator Christine Phelan, who once described herself as “loving my motorcycle, playing with my ugly dog, and building cool stuff,” is one of the members of the Half-Life: Alyx team. Today, however, she is a member of another group, trailing and tracking the snow footprints of mountain lions in North Central Washington. Phelan, who told FMV Maga-zine in 2012 that her dream project was to “to work on Half-Life 3 someday,” juggles her work animating characters at Valve with her other passion: participating in carnivore ecology projects.  
+
+Animal movements inspire her animation, so Phelan has studied and tracked everything from elephants in Kenya to deer, sea otters, and even wolverines. Somehow, between that and her animation work, Phelan is also an amateur soapbox racecar designer and champion. Her Brütal Legend inspired soapbox set a speed record of nearly 50 miles per hour back in 2012 and won the Red Bull Soapbox race in San Francisco. (Her team’s subsequent entry, a Jurassic Park inspired cart with a fully articulated tyrannosaurus rex puppet, didn’t fare as well and crashed).
+
+When she is in the office, Phelan, who’s 5 feet 2 inches, jokes that she is the “token short person” for testing anything in VR. And while you’d never know it when you play the game, she also serves as the motion capture actor for Jeff, the zombified character in Half-Life: Alyx referred to internally at Valve as the “blind zombie.”
+
+The blind zombie sequence, one of the best moments in Half-Life: Alyx, is an example of Valve using VR to push gameplay in new directions. Sure, players can shoot up annoying, face-hugging headcrabs and lumbering zombies all day, but the blind zombie grew out of a different premise: Could Valve build a VR level where sound, a crucial part of virtual reality, directly impacts gameplay? In a way, it was a throwback to the test chamber sequence in the original Half-Life with the tentacle monster that was attracted to sounds and vibrations. 
+
+Legendary Capcom artist Naru Omori, who joined Valve in 2015, started design tests for a creature with no eyesight. Omori began his career as a hairstylist at the Shiseido beauty salon in Tokyo, but he eventually discovered that his artificial lung was irritated by the chemicals in hairspray. He soon reinvented himself as a concept artist for video games, going on to design classic characters for Capcom franchises like Resident Evil and Dead Rising.
+
+Omori’s original concept art depicted not a zombie, but a robotic-like creature with a machine gun. The designers imagined gameplay where the player would throw an object into the environment – a fantastic experience in any VR demo – and the creature would use its machine gun to fire in the direction of the sound. “We thought of scenarios like needing to shoot through a brick wall in an environment and the only way to do it was to get this creature to fire its gun at the wall,” explains Scott Dalton, a veteran Valve designer who studied the Japanese language and culture in college. (He argues that video games are part of Japanese culture, so he naturally did a lot of studying in the dorms).
+
+Over time, the robotic zombie evolved: first to hold a flamethrower and then into a corrupted Combine soldier. Eventually, the team moved toward a more traditional zombie with a series of sound-sensitive tentacles that could attack multiple things at once. The blind zombie proved to be one of the most exciting gameplay ideas during the first year of the project.
+
+Other elements of Half-Life didn’t translate as well to the VR space. When level designers tried to build levels using the Half-Life 2 art assets, “The desks were too high, the doors were huge,” remembers artist Max Aristov.  In a regular Half-Life game, the door handles are at eye height so the player can quickly press the “use” key and move on. But in VR, everything needs to feel more believable and realistic.
+
+Health stations and med packs are legendary items in the Half-Life universe used to heal the player, but the team wondered if there was a more realistic approach for Alyx than just having players run over a magical healing item. The Counter-Strike: GO team created a health pen for that game, which inspired the Alyx team to build a syringe players could inject into their bodies in VR.
+
+Enemies from traditional Half-Life games also needed to be translated to the new reality of VR. The insectoid Antlions, first introduced in Half-Life 2, were placed into early test maps. “Initially they were just way too fast for players,” remembers Valve animator Brad Kinley. In a traditional action game, players jump, strafe and move around maps with laser-like precision. That’s not the case in VR, where players move much slower. As a result, even the most skilled VR players were no match for fast-paced Antlion armies. The Antlions ultimately stayed in the game, but the team added the ability to shoot off their legs to slow them down.
+
+Another group at Valve, the so-called “choreo” team (short for choreography), explored animated characters. In the early days of Source 2, artist Matt Charlesworth and animator Paul Thuriot worked on a test for character animation featuring the infamous G-Man. The so-called “Wake Up Mr. Gordon” test wasn’t designed for VR initially and used dialogue from Half-Life 2, but it gave the team a basis to begin exploring character animation and performance in Source 2.
+
+“Character animation in VR is tenfold more difficult,” admits Andrew Burke, a Valve animator who proudly lists Star Wieners, a Star Wars trilogy send-up done with hot dog puppets, on his resume. “In VR you are often standing right next to characters, and you expect them to do things like track their head as you walk around an environment or even look you right in the eyes.”
+
+Valve had success with its Shopkeeper Dota 2 character VR demo, included in The Lab, but moving famous Half-Life 2 characters to Source 2 – and a much higher fidelity VR environment – was not a natural lift. The art and animation team prototyped next-generation versions of famous Half-Life characters like fan-favorite Dr. Kleiner, designed by artist Ariel Diaz, and Dr. Wallace Breen. Both characters were ultimately not completed or used in the game’s story.
+
+One set of characters that would return were the hunched, single-eyed, hive-minded Vortigaunts. In an early test, the story cabal imagined a more dramatic meeting between the player and a Vortigaunt that had been forcibly severed from the alien race’s mysterious force, the Vortescence. This lone-wolf Vort was the first animation test done by Karen Prell, an animator who previously worked for Jim Henson as the voice and puppeteer behind Red Fraggle on Fraggle Rock.
+
+The test sequence took place inside the Vort’s hideout in the Quarantine Zone. The escaped Vort was near death and the players were required to squeeze nectar from several headcrab hearts into the Vort’s mouth to give him sustenance. However, the character's low energy and the repetitive player interactions slowed the flow of the scene. “The scene became a lot more rewarding to animate and to play through when we changed to a higher energy, more humorous version of the Vort,” says Prell. Some called this the ‘Swedish Chef Vort Sequence’ after the famous Muppet. To keep the scene moving, required interactions with the vort were reduced but many optional interactions with headcrabs and kitchen items were added.
+
+While Alyx was quickly growing into Valve’s largest team, other projects – and VR projects no less – were simmering in other parts of the building. As Gabe Newell told the media in early 2017, Valve had three different full-scale VR games in development: Alyx, the A.R.T.I. project, resurrected as a VR experience, and a third project, codenamed SimTrek, prototyped by some of the members of the team behind Kerbal Space Program. Development on both those other projects stopped, however, as Alyx’s team size continued to grow.
+
+VR was still a speculative frontier, but Valve was going go all-in – both for games and for hardware. The Vive was Valve’s first crack at a VR headset, but the Hardware Lab had secretly started work on a next-generation VR headset and controllers. The hope was to launch Half-Life: Alyx alongside Valve’s new, next-generation VR headset: Vader.
+
+===Chapter 9===
+Valve’s office is located smack dab in the middle of Lincoln Tower, a sleek, 31-floor skyscraper in Bellevue, Washington. With nine floors at its disposal, the company has everything on-site: a cafeteria, a gym, and state of the art motion capture and sound recording rooms. But the company’s most significant capital investment is quietly hidden beneath the lobby on floors 12 and 13.
+
+Valve’s Hardware Lab, filled with dozens of 3D printers, test chambers, clean rooms, and workbenches, is headed by Jeremy Selan, a fast-talking Hollywood software engineer. Before joining Valve, Selan won an Oscar in 2014, presented by Kristen Bell and Michael B. Jordan, for his work on OpenColorIO, software used to standardize the color profiles of film footage as it moves through the production process. Selan attended Valve’s Steam Developer Days in October 2014, heard Michael Abrash’s talk “What VR Could, Should, and Almost Certainly Will Be Within Two Years,” and became a believer in VR as the future of entertainment.
+
+Valve partnered with Taiwanese consumer electronics manufacturer HTC to launch the Vive in 2016, but the hardware team had grander long-term ambitions. Gabe Newell wanted Valve to move beyond HTC and launch a next-generation VR headset entirely on its own – and ideally ship it alongside the release of Half-Life: Alyx. In Newell’s eyes, tightly winding together hardware and software would bring Valve that much closer to how Nintendo builds its experiences.
+
+Valve knows how to make great software, but producing its hardware, soup-to-nuts, was a wildly ambitious goal. It meant hiring (and bankrolling) the necessary staff and vendors to produce, manufacture, and distribute a cutting-edge piece of consumer electronics. “We even hired an optical metrologist on staff,” boasts Selan, referring to a specialized lens technician whose sole job is to figure out the right lens technology to put in a VR headset.
+
+The Vive was an impressive version 1.0 VR headset. Valve, however, wasn’t lacking ideas on how to push headset and input technology even further. The team wanted to integrate audio into the headset, dramatically increase the resolution of the display panels, improve the lenses, and push forward on a new set of controllers, code-named Knuckles, first showcased in prototype form at Steam Dev Days 2016.
+
+The original Vive controllers were like interactive magic wands players held in their hands. Knuckles let players “open their hand, forget the controller is there, and then grab it to do more,” explains Lawrence Yang, a Valve engineer who joined the company from Apple, where he worked on iMessage. For initial Knuckles prototypes, the team purchased gloves off eBay, cut them apart, and taped Vive wands to the back of the gloves.
+
+The internal code-name for Valve’s first proprietary headset was Vader – based around a compact, cradle-based headset design with incredibly high-resolution panels. “We weren’t going to be held back by third party and business realities, so we went a little crazy with our design for Vader,” admits Pierre-Loup Griffais, a programmer who initially joined Valve to help port its games to the Linux operating system. “HTC helped us figure out what could be productized, but without that tension, we sort of maxed out everything on Vader.”
+
+Vader, it turned out, was far too ambitious. “The ergonomics, the fundamental mechanical and technical architecture had problems,” admits Selan. “It was a growing-up moment for our team.” Those familiar with the Vader plans say that if the headset had somehow been manufacturable, it would have cost consumers upwards of $5,000 USD. “We didn’t learn how to self-compromise very well,” Selan says with a laugh.
+
+Vader ended up as another one of Valve’s canceled projects – and a setback that would cost the hardware team a good 12 months of development time. Out of the ashes of Vader, however, came Frank, a new product with a new set of goals and a new timeline. The Frank project, now known as the Index, inherited some of Vader’s best features: the same Knuckles controllers, Lighthouse 2.0 base stations, and a revolutionary off-ear audio design created by Valve’s Emily Ridgway.
+
+Ridgway, a brilliant Australian audio engineer known for her sound design work on BioShock and Brütal Legend, likes to say that she “specializes in making games sound like they do in your dreams.” At Valve, her audio work has spanned software and VR hardware design. Headphones were needed for the original Vive VR headset, but for Index, Ridgway proposed a new way to deliver sound.
+
+Inspired by childhood memories of being immersed in music while laying between two inward facing hi-fi speakers, Ridgway tinkered with an off-ear audio solution, or put another way, speakers that would hover about 1 centimeter away from a player’s ears. To test her theory, she screwed a pair of desktop PC speakers into a skateboard helmet.  The result? A more comfortable and immersive sense of 3D sound, with a unique “tonal coloration” to audio since sounds pass naturally across a play-er’s entire ear versus being injected into the canal through headphones.
+
+Two floors above Selan on Floor 14, the Half-Life: Alyx team was inextricably linked to Index development – especially through Ridgway, who joined Alyx as a sound designer and even wrote Combine soldier AI dialogue. Development on Alyx began on HTC Vive headsets and controllers, but as soon as prototype Knuckles controllers were available, the team started testing and providing feedback to Selan and the hardware team.
+ 
+Working with unfinished hardware, not surprisingly, introduced another layer of complexity to Alyx’s development pipeline. The team always planned to support all possible VR headsets, including the Oculus Rift, but the north star goal was to build a game experience best played on Index with Knuckles controllers.
+
+Figuring out how to take advantage of the Knuckles controllers fell in the hands of Kerry Davis, a Valve veteran who joined the company as a software tester on Half-Life 2. The son of two high school music teachers in Glencoe, Minnesota, Davis is a professional tap dancer who moved to Las Vegas at age 21, where he spent a decade as a blackjack dealer on the Vegas Strip. (Davis admits he still knows by heart the numbers on a roulette wheel both clockwise and counterclockwise). 
+
+When Davis joined the Alyx team, he became obsessed with the idea of breaking new ground in how a play-er’s hands interact with a VR environ-ment. Most VR titles feature translu-cent virtual hands that a player can swipe through objects and walls like a ghost. It makes a game feel more like a simulation than reality. On Alyx, Davis sensed an opportunity to create more realistic and believable hands.
+
+“A Half-Life game is about interacting with the world and a player feeling present in that world, so I wanted to figure out how to create solid hands,” he explains. Davis’ vision was to let the player hands directly interact with objects, walls, surfaces, and doors. For instance, if you reached out to touch a door, your hand wouldn’t float through it like a magic trick. Instead, your in-game hand would change its pose to suggest it was resting against the actual door. “Everyone freaked out about the physics and animation implications,” Davis remembers with a smirk.
+
+There is little doubt why. To create “solid” hands, Valve had to build a library of 50 different “poses” a hand could make as it interacted with an object in an environment. If the player went to grab a can of soda in the world, the computer needed to instantly sift through a pose library, matching the hand not only to the shape of the object, but the way the player was picking it up – from the side or top, for instance.
+
+The team also innovated with the idea of a “remote fishing pole,” as programmer Charlie Brown calls it, or what is now known as the gravity gloves or Russells. Inspired by the gravity gun that Gordon Freeman carried in Half-Life 2, these prototype gloves on Alyx’s hands let players highlight objects in the distance and pull them back into their hands like a Force pull move out of a Star Wars video game.  
+
+Functionally, the gravity gloves prevent players from having to continually reposition the character in VR to pick up an item in the environment. There is a fictional justification too: Inside the watch case on the gloves is the tiny shard of an orange Xen crystal, the same crystal that powers Gordon Freeman’s gravity gun in Half-Life 2. “We’re before the time of Half-Life 2, so they can only grow these little small-coin-sized crystals,” explains artist Tristan Reidford. “And the watch case on the gloves is like a little armor case for the crystals.”
+
+By the end of 2017, it was clear that Alyx would primarily feature entirely new, high-resolution game assets, new enemies and gameplay, and a scope well beyond anything the team imagined initially. The game was beginning to look like a full-blown prequel to Half-Life 2 that just happened to be in virtual reality. 
+
+There was, however, one aspect of the experience – and a hallmark of the franchise – that was still in the throes of development: the story and dialogue that tied together Alyx’s adventure through City 17.
+
+===Chapter 10===
+As a 20-year-old kid studying economics at Oxford  University in the United Kingdom, Dario Casali somehow found time to play video games while analyzing demand theory and interest rates. Known as “Punisher” or “Numbr 6” online, Casali is the son of famed New Zealand cartoonist Kim Casali, who wrote the famous Love Is… series of cartoons in the late 1960s. To start the series, Casali wrote little notes to her future husband, such as “Love is…being able to say you’re sorry,” and hid them in places he’d least expect, like tucking them in a pocket or sneaking them under his pillow.
+
+Dario, likewise, got a kick out of hiding little surprises in the levels he and his brother built for id Software’s DOOM. In Diehard, his first level, he hid a megasphere – a smiling demonic face that boosted a player’s health and armor to 200% – for enterprising players to discover. The Casali brothers were such talented map makers that id Software hired them to create The Plutonia Experiment, a 32-map set of DOOM II levels they created in the span of 4 months. “The idea of being able to create in a world with no consequence for failure appealed to me, so that’s what I do to earn my passage in life,” Casali wrote on his personal blog in the late 90s.
+
+In 1997, Casali was plucked from the internet to join Valve as one of its first level designers. He helped design the alien research lab in Half-Life, and for Half-Life 2 worked on City 17 and Ravenholm, the former mining town and resistance stronghold.
+
+Many of the original Half-Life designers have slowly retired or left Valve over the past two decades, but Casali stayed put – never taking a vacation longer than two weeks. But in the Summer of 2017, he finally took a six-week sabbatical before returning to dive further into development on Alyx.
+
+Coming back from his trip abroad, Casali realized that the team had assigned out all the levels during his absence. All that was left was the Vault, the finale. “It was a black box with no gameplay in it and the G-Man,” Casali remembers. Not left with many choices, he wrote his name out on a Post-it note and stuck it up on the board under “The Vault.” 
+
+Based on the original story cabal pitch, the finale was a jailbreak of sorts. Alyx would free the G-Man from the Combine’s floating cage and thus trigger events that would lead to Half-Life 2.
+
+Much like the jumpy Xen alien world at the end of Half-Life 1 and the overcharged gravity ball finale of Half-Life 2 inside the Citadel, Casali wanted the end of Alyx to have a unique gameplay twist. He started thinking of Scaramanga’s fun house in The Man with the Golden Gun as inspiration. Perhaps the team could put together a surreal and abstract experience inspired by G-Man’s nebulous ways. “What would it be like to play with the scale, the player’s perception of geometry?” Casali wondered.
+
+Initial concept art from artist Jim Murray called for the ghostly sounds of past Half-Life events to play out in a time warp of sorts. Upon his release, the G-Man would lead Alyx through a series of red doors to re-visit famous locations from previous (and future) Half-Life games. In a way, the sequence would be a throwback to the start of Half-Life 2, where the G-Man introduction featured a quick clip from Black Mesa and previewed the Citadel in Half-Life 2.
+
+The idea of referencing other Half-Life games was expanded on by writer Rob Yescombe, who had written the VR game The Invisible Hours. Yescombe, who worked on Alyx in 2017 and 2018, came up with a somewhat outlandish concept for the game’s coda. Upon freeing the G-Man from the Vault, Alyx and G-Man would travel back in time to the Black Mesa Research Facility, the site of Half-Life, for a shocking Avengers: Endgame style twist. Standing in the Anomalous Materials Laboratory at Black Mesa, Vance would step in to stop Gordon Freeman from pushing the Xen alien crystal into the Anti-mass Spectrometer, thus preventing the resonance cascade and the Xen alien invasion on Earth. Although it was discussed, Yescombe’s idea was judged too radical and never prototyped.
+
+With the game set after the Seven Hour War, the overall tone of Yescombe’s initial narrative was darker and more somber than previous Half-Life games. Initial levels featured Vorts being rounded up by Combine soldiers and paraded in front of citizens as roadkill, citizens of City 17 nervously shuddering in food ration lines, and a particularly squalid part of City 17 overrun with Xen alien debris. Gone were the bumbling scientists of Black Mesa. In their place were Combine henchmen who ruled over the destitute streets of City 17 with fear and force.
+
+The Combine used a familiar figure as the face of human acquiescence: Eli Vance, Alyx’s father. In early passes of the script, Eli, captured by the Combine, was forced to read propaganda videos to protect his daughter. His captor was Hahn, a mysterious female agitator whose brain had been sucked out and replaced by the Combine. In one proposed sequence Hahn even tortured Eli after he pushed back against recording yet another propaganda video.
+
+Alyx and Eli were conflicted with each other from the start of the game. She hated seeing her dad give in to the Combine overlords on her behalf, even though he would, of course, do anything to protect his little girl. Eventually, Alyx would sneak out of the house they were sequestered in to meet up with Josef, a “Swedish punk rocker” of an uncle who helped her free her father from the Combine’s interdimensional clutch. (Josef was an evolution of the Laszlo character first proposed by the story cabal).
+
+As Alyx ventured forth into City 17, certain NPC characters would present business cards they received from the G-Man. Each card had a unique word printed on the back, which the character would read aloud to Alyx. “We wanted to build the mythology of how the G-Man exacts his influence: If he gives you a card, you read it,” remembers Yescombe. “I wanted to draw a comparison between the cue cards the Combine made Eli read in their propaganda and the sort of cosmic cue cards the G-Man made people perform.”
+
+Ultimately, when players made it to the Vault and released the G-Man, he would present Alyx with a card too – that she would read, in one of the few lines of dialogue for Alyx in the game. (Half-Life’s protagonist Gordon Freeman never spoke in other games, so whether Vance spoke any lines was an ongoing debate in the early years of the project).
+
+With a trip back to Black Mesa ruled out, the next proposed ending rewound time back to the start of the game, Groundhog Day style. Alyx, now possessing her gravity gloves and her G-Man business card, would read the word to her father, and in turn, change his fate and the course of events in the game. One concept even had Alyx, now equipped with her gloves, killing Hahn, Eli’s captor and torturer, to end the game with a tinge of revenge like something out of a Call of Duty. 
+
+As the intricate narrative evolved, it became clear how much detail was required for game environments. “You have to design every single moment of a Half-Life project,” explains designer Phil Co. That crafted experience requires even more attention in VR, as players explore the world up close. 
+
+“Throughout the whole history of first-person action games, you pretty much spend split seconds in each room,” says Scott Dalton. “But in VR you open every door, read every sign. The density of the experience goes way up, and we wanted to create a ton of emergent storytelling for players to discover.”
+
+One part of the storytelling that went through growing pains was the blind zombie level. Conceptually the team knew the idea was a slam dunk, yet the practice of implementing a new type of artificial intelligence was challenging. At times, it seemed like the entire sequence was at risk of getting cut from the game.
+
+“It was an interesting problem set, contrary to every other combat scenario in the game,” says Charlie Brown, a Valve veteran who worked on the zombie’s artificial brain to help him avoid getting stuck in the  level. One scenario experimented with using the blind zombie as a shield or decoy against a canon that kept firing in the player’s direction. “You’d hide behind him and slowly make your way towards an exit,” remembers Valve programmer Matt Scott.
+
+For more traditional combat, Valve planned a limited set of weapons for Vance – but with intricate upgrades. Even reloading would be far more realistic than pressing the ‘R’ button on a keyboard. In VR, players would physically pull out shells or clips from a backpack and insert them into a gun like Alyx’s pistol, which was one of the few art assets from the unreleased Half-Life 2: Episode Three that the team re-purposed for the VR game. 
+
+The one-handed shotgun in the game borrows visual language from Half-Life 2’s famous pulse rifle or AR2. “We had this idea that the Combine gathers up all the weapons after the Seven Hour War and laser etch them to redistribute,” says Tristan Reidford. “So, that’s why there’s laser etching on the top of the shotgun.”
+
+Other weapons were prototyped, including a slingshot, a shield, a rocket launcher, a deployable trip mine, and a grenade with a pin. Two-handed weapons ended up being too cumbersome for players, including the initial pass at a grenade, which required a free hand to hold it and another free one to pull out the pin.  
+
+Half-Life’s signature weapon, the crowbar, was also considered. Playtesters especially enjoyed holding the crowbar out in front of them and then teleporting into an enemy ahead for a forceful melee attack. But the crowbar was removed, in part because it is more closely associated with Gordon Freeman than Alyx Vance.
+
+Throughout 2017, the general combat loop continued to be refined with dozens of playtesters coming through Valve’s office for top-secret tests. 
+
+Robin Walker also put together a VR playtest of his own using a custom map he created of his Seattle home, which was under renovation at the time.
+
+“Here, just put on the headset, and I’ll show you how I think the place is going to look,” Walker told his contractor one day at his house.
+
+The builder put on the VR headset and found himself standing on the rooftop of the remodeled house. He marveled at how great everything looked in 3D virtual reality. 
+
+“Yeah, I think it’s going to look pretty good. Actually, can you just go press that red button over there?” Walker instructed.
+
+The builder walked over in VR space and pressed down on the button, wondering if it might turn on the lights.
+
+Suddenly and unexpectedly, Half-Life zombies began spawning in the yard, slowly making their way across the garden and into the house.
+
+===Chapter 11===
+Ask anyone at Valve the secret to a great game, and they invariably reply with two words: playtesting and iteration. There’s a reason Valve says on its website, “We believe that all game designers are, in a sense, experimental psychologists.” What good is the game if it doesn’t evoke the response that the designer intended?
+
+It’s the end of July 2018, and today, on a hot Seattle summer afternoon, a group of external testers is secretly playing through the latest build of Half-Life: Alyx on the 14th floor, just off the main lobby. 
+
+“The irony is not lost on us that the most secretive thing at Valve is located right behind the reception desk,” says Valve designer Jeff Lane, who helps coordinate the external playtesters, often culled from friends, family and other trusted developers.
+
+As one playtester starts to explore City 17, a team of designers carefully watches the screen with notepads and pens. Another group views via a live webcam feed to their desks. Valve records every playtest so they can quickly reference specific moments if a player gets stuck, confused, or disoriented. (When I played through early versions of the game at the office, the team would often watch a live feed of my playtests – talk about pressure!)
+
+On this summer afternoon, one tester is particularly crafty. At the time, Alyx featured deployable ladders that a player could move around a level to solve puzzles. But Valve didn’t account for this enterprising tester who puts the ladder into their wrist pocket inventory and takes it along to the next level. There, they smartly deploy the ladder and scale a fence, altogether skipping a firefight against the Combine.
+
+While that bug would get fixed quickly, Valve did want to give players multiple options for how to navigate the game environment. The team settled on three different movement models: teleport, continual movement, and shift, or blink. Since hardly anyone’s room-scale VR setup is anywhere near as large as a game level, these movement models help players traverse the game’s vast environments. 
+
+Outside of the playtest areas, the development office, organized into three large interdisciplinary cabals, is a mishmash of programmers, designers, artists, animators, and writers. In the center of the room is a large “task board” that breaks down the project into three main categories: gameplay art, gameplay code, and animation. Employees are listed on the board with blue Post-it notes to highlight their current tasks, and an estimate by weeks of how long each task will take to complete.
+
+“Teleport – 6 weeks” is listed next to Charlie Brown’s name, as he is in charge of the different movement models. Robin Walker has two Post-it notes under his name: “Combine Soldier AI – 8 weeks,” and “Zombie  Classic AI – 1 week.” Others have longer task lists, including animator Andrew Burke, who has 13 Post-it notes adding up to a good three months of work, including animation for the health pen and trip mine, and two weeks work to animate a classic Half-Life item: The health charger.
+
+Throughout the summer and fall of 2018, the team began testing the game in more depth with the hopes of getting it ready to ship in the first half of 2019 alongside the Index headset. The scope had expanded well beyond the original 5-hour journey through City 17, with some playtesters taking upwards of 10-15 hours to complete the game.
+
+Work on the blind zombie level continued. What started as a factory level evolved into a distillery, which helped explain why the player always threw around bottles of vodka and other spirits to distract the zombie, now known as Jeff. The team also added the idea of spores in the world that triggered the player to cough (and thus give away their position to the zombie) if they didn’t cover up their mouth. That addition further physicalized an already tense gameplay sequence.
+
+The blind zombie level was becoming a favorite in the development cabals, but Valve was still struggling with other aspects. One area of particular concern was the character animation system. Because the system was not fully working, a distinct lack of ‘choreo’ scenes were up and running during playtests. “A lot of the story was loaded into the first two levels of the game back then,” said Bram Eulaers, an artist at Valve. As players ventured further into City 17, there were long stretches of lonely gameplay without much in the way of character interaction or story until the Vault sequence with the G-Man.
+
+In late 2018, the team prepared for its biggest playtest yet: Letting the entire company experience Half-Life: Alyx. Held over the holiday season of 2018, the playtest let every employee take home an in-development Index headset and submit their feedback on Alyx across four dimensions: fiction, gameplay, aesthetics, and performance.
+
+“Internally, there were still some doubters about VR on the team,” admits programmer Joe van den Heuvel, who joined Valve in 2017 after working on EA Sports Fight Night and Microsoft Kinect. “I think people re-invested emotionally in the project after that playtest. I could see the greatness in there, even if the animation system needed work, and we needed a full art pass on the game.”
+
+There was, however, one aspect of the game that became a severe red flag during the companywide playtest: the story. Narrative has always been one of Valve’s greatest strengths, especially with Half-Life games. Yet internal playtesters scored the story of Half-Life: Alyx at the lowest level of any game in Valve history.
+
+“The story ended up feeling a lot like a Zack Snyder DC film versus a Marvel movie,” surmises composer Mike Morasky. “It was dark, serious, and laborious.” Half-Life had always been a little tongue-in-cheek with action moments offset by Star Wars-style humor. But Alyx was downright bleak, with themes of horror, dread and torture, and long stretches of no narrative at all. It didn’t help that all the voice acting at the time used text-to-speech or internal employees.
+
+“I am so lonely playing this game,” designer and animator Matt Scott, a veteran of Half-Life 2 episodes One and Two, said to his teammates.  
+
+“We all had pretty strong feelings about the story. Getting that feedback from the rest of the company was validating,” remembers designer Corey Peters.
+
+The negative internal feedback on the game’s narrative came at a tough time for Valve. In November 2018, just a month earlier, it shipped Artifact, a collectible card game based on Dota 2. The game received uncharacteristically mediocre reviews, and the Steam player count quickly dwindled. Online, fans and media were quick to label it as a “bomb” or “flop” from Valve, a company with a sterling reputation and not known for shipping bad games.
+
+Was Half-Life: Alyx about to become another disappointment? After nearly three years of work, would Valve go so far as to cancel the still unannounced game, throwing it into stasis as G-Man did to Gordon at the end of Half-Life? Everyone knew that a new Half-Life couldn’t just be functional – it needed to be excellent across all dimensions, especially narrative.
+
+“It was hard to feel confident about where the game was headed after the company-wide playtest results,”  admits designer Jason Mitchell.
+
+To be fair, previous Half-Life games haven’t been without twists or “nudges” needed in their development, as the G-Man would put it. The original Half-Life was almost completely rebooted a year before its release. And for Half-Life 2, the team canceled the game’s E3 reveal just weeks before the event because Gabe Newell didn’t feel the demo was good enough.
+
+Still, Valve had never been this close to finishing a game and seen such a tepid response to a core pillar. As the team returned from the 2018 holiday break, there was a sudden air of uncertainty around Valve’s triumphant return to immersive single-player games.
+
+===Chapter 12===
+The Fishbowl, as it’s known, is the largest conference room at Valve. Employees are encouraged to look at what’s happening in the glass-encased room located just above the lobby on the 15th floor and simply join any meeting if they are curious. Today, January 7, 2019, there isn’t much room for other guests. Walker and Coomer have convoked the entire Half-Life: Alyx team to discuss the state of the game and the results of the playtest. 
+
+Standing in front of the 80-person-strong group, Walker realizes how the project had grown from its roots as a 4-person prototype in February 2016. Alyx is now the largest team in the history of Valve – a risky proposition for a VR-only game that carries the added weight of being the first Half-Life in over a decade.
+
+Addressing the room, Walker says the response to the playtest has been incredible overall: the sense of immersion in City 17 is off the charts, as is the fun of the minute to minute gameplay.  But there are problems, he says. Namely, the story and narrative just aren’t working – and the company-wide playtest confirmed as much.
+
+“We’re going to ask these three guys to figure it out for us,” Walker says, as he gestures over to writers Erik Wolpaw and Jay Pinkerton, known as two-thirds of the iconic writing trio on Portal 2, and Sean Vanaman, a writer who joined Valve in the Spring of 2018 when it acquired his company, Campo Santo.
+
+Pinkerton, Vanaman and Wolpaw were new additions to the team (Although truth be told, Wolpaw and Pinkerton had turned down working on Alyx in the project’s early days). Pinkerton had just returned to Valve after quitting for a year (“I asked Gabe for my job back and he said ok because he’s kind of the greatest guy on the planet,” Pinkerton remembers). Wolpaw had also just returned to Valve on a contract basis working from Cleveland in between stints working at his niece’s juice shop. Vanaman, for his part, had been focused on Campo Santo’s next game, In The Valley of Gods, which was put on hold in late 2019.
+
+Privately, Pinkerton, Vanaman and Wolpaw knew that “figuring it out” was a polite way of putting what was actually about to happen: The entire narrative of the game was about to be upended; every line of dialogue scrapped. The whole game would be re-written from scratch.
+
+Writing the next Half-Life game is a daunting challenge, even under perfect conditions. These were hardly that. The writers were inheriting a game mostly set from a gameplay perspective. Somehow, they had to figure out how to alter the game’s main plot, characters, and dialogue within the limits of what’s already there – and do it in a matter of weeks.
+
+“We weren’t going to switch from City 17 to Xen, or an ocean liner…that was immovable,” explains Vanaman. “Alyx was immovable. Eli and G-Man being in the story was immovable. The basic level track was immovable. The prequel nature might have been fungible, but it was pretty rock solid.”
+
+“All the mechanics and maps were staying the way they were, but the whole reason you as the player are going through them is going to change entirely,” is how Jake Rodkin, Vanaman’s partner at Campo Santo, saw it. Rodkin would join the story team to help shape (or re-shape, as it were) the game’s plot and characters. 
+
+“And oh yeah, the game is supposed to ship in six months,” Rodkin remembers.
+
+Walking out of the team meeting, Pinkerton, Vanaman, Wolpaw and Rodkin immediately set up shop in a writer's room of sorts – a small, blue-walled conference room on the 14th floor. Their goal: Come up with a new story arc for the game within two weeks, in time for a team meeting on January 21. 
+
+“We’re absolutely going to try and do this without causing a lot of extra work for all you guys,” the writing team emailed to the group of Alyx developers that afternoon.
+
+“What I respect about Valve is that they have the ability, as a team, to say, ‘maybe we need to take a second look at this and have the confidence in the team to fix it,’” says Claire Hummel, an artist on the team.
+
+As the writers started to dig into the project, they knew it had to begin with Alyx in City 17 and end with the dramatic prison break of the G-Man from the Combine Vault. And because it was a prequel to Half-Life 2, there was, as the writers put it, the “prequel problem.”  
+
+“There’s a small world of characters already in Half-Life, and you know where they end up in Half-Life 2. No one is going to die, no one is going to lose limbs,” explains Pinkerton. “How do we create tension, any kind of conflict?”
+
+Quickly, the writers re-thought significant aspects of the story, including the tone. The villain, Hahn, was completed removed. (Her character model ended up as Olga, the woman who talks to Alyx through a window in the laundromat early in the game). Josef evolved into Russell, and his location moved from a firehouse to a science lab. Larry, a new character, was added to help explain the blind zombie level and gameplay. Perhaps the most significant structural change, however, was the introduction of audio communication between Russell and Alyx throughout the game via headsets.
+
+“Audio dialogue like that is road trippy and low calorie to pay attention to,” says Pinkerton. “But at any point, we can easily give the story a little CPR and bring the energy up.”
+
+The most substantial challenge was figuring out the payoff for freeing the G-Man from the Combine prison. “You’re going to rescue God – or Satan – from prison, and he’s going to give you something. But we couldn’t come up with anything that would be worth all that effort,” says Wolpaw. The idea of cycling back to the beginning of the game for a closed-loop experience seemed inconsequential.
+
+“We needed an idea that was meaningful to the player and felt essential to Half-Life, versus something that was just an academic exercise,” says Pinkerton.
+
+The potential solution came from the unlikeliest of places. During an elevator ride up to the Valve office one morning in January, Wolpaw lamented to Valve artist Jim Murray, a British comic book artist known for his work on 2000 AD and Judge Dredd, that no one could figure out the appropriate payoff.
+
+“What if instead of going back in time, G-Man took you to the end of Half-Life 2: Episode Two and saved Eli’s life?’” Murray lobbed at Wolpaw.
+
+“That’s ridiculous; we can’t do that!” Wolpaw told him.
+
+There was a short pause.
+
+“Hmm, well, maybe we could do that,” Wolpaw admitted.
+
+Back in the writer's room, the four man story team listed out potential plot moments on a whiteboard. With the "track" of the game set, the team had to craft story moments within the confines of the existing levels and character models. For two weeks straight, the group sat in the conference room for eight hours a day to "break" the story.
+
+On January 21, the writers nervously return to the Fishbowl to pitch the larger team on their proposed triage of the narrative. 
+
+“Keep in mind this is a room of 80 people, many of whom worked on the original two Half-Life games, and the three of us who didn’t,” cautions Vanaman. “We’re about to pitch them a retcon of a thing they made ten years ago. Yes, we were stressed out about it.”
+
+As the meeting convenes, Pinkerton begins his story pitch.
+
+“In the old story, fans got to take all the toys out of the box, play with them, but you just put them back in the box, and nothing changes,” he explains to the group.
+
+Next, Wolpaw further outlines the challenge.
+
+“We have a very crisp problem set before us,” Wolpaw tells the attentive room of developers. “We have this prequel problem, we have this not impacting the story of Half-Life problem, and we have this G-Man at the end of the game thing we can’t move.” 
+
+The writers’ proposed solution – jumping to the end of Episode Two and having G-Man save Eli Vance’s life – was in keeping with the G-Man’s ability to seemingly warp space and time. The writing group felt such a leap would make Alyx’s actions in the game have real – dare we say unforeseen – consequence. “This idea is going to solve all three of these problems in a very elegant, very producible way given our constraints,” Wolpaw continues.
+
+“So that’s option A. And if you guys don’t like it, we’re totally ready to hear your option B,” he says to the room.
+
+Most of the larger team are relieved to hear a big, bold idea and excited that Pinkerton, Vanaman, Rodkin, and Wolpaw had managed to add an element of levity, or a "fun pass" as animator Karen Prell calls it, to offset the game’s horror elements. 
+
+There was just one potential roadblock: Gabe Newell.
+
+Back in 2007, in the final months of production on Half-Life 2: Episode Two, the team planned to end that game with a fun sequence featuring Lamarr, Kleiner’s pet headcrab, floating in orbit outside the rocket that launched from White Moon Base. Newell, however, wanted something bigger and more shocking. He suggested a considerably large nudge, as G-Man would put it: The team should kill a major character for a cliffhanger that pays off in Half-Life 2: Episode Three.
+
+Given the recommendation from his employer, writer Marc Laidlaw drew up plans to kill fan-favorite scientist Dr. Kleiner. But after much discussion, the team settled on Eli Vance as the victim. In the final moments of the game, a Combine Advisor captures Vance and sucks out his brain, all while his weeping daughter, Alyx, watches in horror.
+
+The Alyx team had embraced Eli’s resurrection, but no one knew if Newell would be on board with such a radical retcon of his self-ordered Episode Two denouement.
+
+Coming out of the team meeting, which seemed to go well, Pinkerton, Wolpaw, and Vanaman head up to Gabe’s office on the 18th floor to pitch him the idea. Newell listens and delivers his verdict: The Eli Vance can live!
+
+Given the favorable response to the new story arc, the writers immediately started penning dialogue to tie everything together – and there wasn’t much time. The first recording session for the game, with James Moses Black, the new voice of Eli, was scheduled for February 14. 
+
+The proposed story changes would also require new art and development resources, such as re-creating the White Forest base from Half-Life 2, and creating three new character models: An older Eli Vance, DØg and yes, Gordon Freeman, for a post-end credits surprise to tease the continuation of the series post-Alyx.
+
+For years, the plan was to ship Half-Life: Alyx alongside Valve’s Index headset, similar to how Super Mario 64 came out alongside the Nintendo 64. With the significant changes to the story and additional production requirements, that goal was no longer tenable – unless Valve planned to hold back the Index’s release for six months or more.
+
+“I really wanted a joint story, to tie together the reveal of Index with the reveal of Half-Life: Alyx and ship them both together,” admits Greg Coomer. Index’s roadmap called for an announcement at the end of April and release date in June. Alyx, in a best-case scenario, wouldn’t be ready for release until November. The Index, it turned out, would have to ship with a high price tag – $999 USD for the full kit – and no flagship game.
+
+===Chapter 13===
+Fat Men in Skirts. Morticians in Love. Little Boy Goes to Hell. These are just some of the production names you’d see on the marquee of Seattle’s Annex Theatre in the late 1980s. Located in a former dance studio on 4th Avenue, Annex was a fringe theater that also doubled as a concert venue. On some nights, actors like Mike Shapiro would push back the sets after a show so local bands like Nirvana and Soundgarden could come in to play a nighttime gig.
+
+Shapiro is a multi-hyphenate. He acts, sings in bands like the Dirty Waltz Band and Nine Pound Hammer, and even was the voice of the Staples “That Was Easy” red button in the mid-90s. His most famous role, of course, is that of a character inspired by the Cigarette Smoking Man in The X-Files: Half-Life’s iconic, enigmatic, briefcase-wielding interdimensional bureaucrat, the G-Man.
+
+Spend an hour with Shapiro in New York, where he lives, and you begin to realize a Stanislavski-level devotion to the character. First, he tells you about the replica G-Man briefcase he keeps at home in Brooklyn. Then, if you’re lucky, he will start ruminating on G-Man’s backstory. 
+
+“If you think I haven’t thought about G-Man at age 14…oh, I have. He’s, how should I say, a saturated character with an anachronistic name. And Man is not his last name,” Shapiro reveals.
+
+“Did he have a happy childhood?” Shapiro wonders aloud one morning in the back of a diner in lower Manhattan.
+
+“He had a childhood where his parents provided him with a good deal of modeling about getting into mischief, but he himself wasn’t allowed to get into mischief. He traveled a lot. He wasn’t unloved. I guess you could say the most formative part of his youth was to avoid getting caught for the trouble he was creating.”
+
+While no one at Valve is quite sure where Shapiro has gathered all this, how shall we say, intelligence, on the G-Man, there’s little doubt he’s dreamed up an entire backstory to inform the character’s halting, irregular cadence of speech. Nearly 12 years after his last performance as G-Man for Episode Two, the writers at Valve quietly wondered if Shapiro would even remember the character voice and performance style.
+
+“We heard rumors he takes like an hour to warm up and fully get into character,” says Vanaman, who couldn’t believe he was writing G-Man dialogue in 2019.
+
+In February 2019, Shapiro’s agent received a call for an upcoming Valve project under the code-name JAMIROQUAI, a play on the 1996 song “Virtual Insanity.” A few weeks later, Vanaman, Wolpaw, and Pinkerton headed to Manhattan for the first G-Man recording session in over a decade.
+
+Much to the surprise and delight of the writers, Shapiro nailed the performance in one take that lasted a mere 20 minutes – although additional pick-ups would happen throughout the rest of 2019.
+
+“Mike, you absolutely nailed it! Thank you. We’re good. We’re done!” Vanaman said over the producer’s mic in the New York studio.
+
+G-Man wasn’t the only returning character that quickly headed into the recording booth. On March 14, the team had its first recording session with Merle Dandridge, the actress who voiced Alyx in Half-Life 2. But by late summer, playtests made it clear that Dandridge’s performance was a mismatch for a younger Vance. The team re-cast the role in September 2019, bringing in Ozioma Akagha, a first-generation Nigerian actress best known for her role on the Hulu show Marvel’s Runaways.
+
+Since the game was in VR, “I just had to make sure that Alyx never came across as annoyed, because you don’t want someone in your head that sounds irritated at you,” says Akagha, whose two older brothers can’t believe she is actually in a Half-Life game.
+
+For Russell, the team reached out to Flight of the Conchords star Rhys Darby to see if he would be interested in playing the part. Darby accepted the role and instantly added a much-needed comedic repartee, similar to how Stephen Merchant brought his own style to Wheatley in Portal 2. The back-and-forth between Russell and Alyx also added a significant amount of dialogue to the script. Half-Life 1’s script was just 18 pages, and the sequel, 128 pages. Half-Life: Alyx ended up as a 280-page script.
+
+Alongside the mainline actors, the sound design team had to cast for a very different but essential role: The headcrab. To create the sound of the classic headcrab, designer Roland Shaw mixed the original Half-Life sound effects with vocal performances from an actor. Added to the mix were audio samples of badgers, snakes, and a wider variety of dogs. “Stealing from something I think Ray Harryhausen said, we see these characters as creatures, not monsters,” Shaw says. “There are moments where they are monstrous, but they can also be sad.”
+
+The audio designers —  including Emily Ridgway and Kelly Thornton — had to honor the franchise legacy and update the sound design to hold up in an immersive VR environment. With more than 3,000 physics objects on some levels, the team painstakingly assigned sound effects to every item to heighten the realism. 
+
+Composer Mike Morasky, while a veteran of other Valve soundtracks, had never written music in the Half-Life world. He spent months trying to imagine what Half-Life would have sounded like between the time of the original game and Half-Life 2. Morasky listened to big beat music, drum and bass, electronica, ambient, and industrial music to inspire his soundtrack. Songs like Nine Inch Nails’ “Leaving Hope,” The Prodigy’s “Shoot Down” and Skinny Puppy’s “Ghostman” were evocative of the era.
+
+The level of immersion increased as the team added detail and density to the world. The more interactive the scene, the more players responded. In addition to reading signs and crushing cans of soda pop in their hands, Valve started experimenting with gameplay like a fully interactive piano in the lobby of the Northern Star Hotel, and a whiteboard with a set of dry erase markers.
+
+The immersion further increased when Bronwen Grimes joined the project in the spring of 2019. Grimes, a Canadian technical artist by trade and a clarinet player by hobby, is often seen crocheting in the Valve  cafeteria during lunch hours. Her primary task was working on the interaction model in the world or, put another way, how the world cares about the player’s presence.
+
+“If you want to ruffle some weeds, I’m your gal,” she jokes.
+
+Grimes painstakingly went through the game world to make the plants and Xen alien elements more interactive. If a player’s hand reaches out in VR, the leaves on a bush will sway to acknowledge their presence. Or if you throw a grenade, the plants thrash around due to a “local little hurricane” Grimes programs into a voxel volume. All told, there are over 106 different plants in the game that each have up to 200 different “bones”  impacted by the player’s actions. When combined with the fully interactive hands, little details like this make the world respond to players in ways never before possible in a Half-Life.
+
+A new animation system, led by Joe van den Heuvel, helped the animated characters look more believable, especially when paired with the final voiceover acting. Animator Jamaal Bradley, a veteran of animated feature films, used Shapiro’s G-Man dialogue to bring a next-generation character model to life. G-Man’s boxy head from the original Half-Life evolved into a fully realized CG character, created by Matt Charlesworth, Jeff Unay, and Paul Thuriot. The team even purchased a blue suit for G-Man from Nordstrom that was photo scanned for realism and programmed with special wrinkle blend technology.
+
+Half-Life was starting to look and feel like a real next-generation game.
+
+As Summer 2019 grew closer, the Alyx team could see the finish line in its sights. Yet one significant level of the game was still causing concern: Alyx’s dramatic rescue of the G-Man from the Vault, the Combine’s floating sky prison.
+
+===Chapter 14===
+Far from his 18th-floor office at Valve, Gabe Newell, in his trademark sandals and black Ralph Lauren polo shirt, stands in front of an assembled crowd of 50 employees and friends. Today, Newell has invited the hardware team to Valve’s offsite production facility in Seattle, where it builds VR lighthouse base stations, to celebrate what he calls a critical milestone: the launch of the Index VR headset.
+
+“These milestones aren’t the end, they are the beginning,” he tells the team, citing how games like Half-Life led to Half-Life 2. “And maybe someday that number, 2, will lead us to that shiny integer glowing somewhere on the mountain there,” he jokes, making another offhanded reference to the game that shall not be named: Half-Life 3.
+
+With the Index headset shipping off the production line into the hands of consumers, there is still no public mention of Half-Life: Alyx. Instead, Valve teases that a “flagship VR game” is expected by the end of the year. Still, rumors persist online that Valve is likely working on some kind of Half-Life VR experience. 
+
+That online chatter gains momentum when an update to The Lab mistakenly includes references to Shooter, the prototype pulled from that game before release. (“Someone forgot to run a script we have to take out those mentions,” admits Tejeev Kohli with an eye roll). As a result, fans speculate that perhaps Valve is remaking Half-Life 2 in VR or building some kind of Half-Life 2 shooting gallery. Few, however, predict that Valve is in the final stretch of developing a full 15-hour next-generation Half-Life.
+
+Back on the development floor, the game continues to go through the throes of playtesting and polishing. New elements are starting to come online, including two action moments. First, a van crash sequence early on the game, staged by Russell, frees Alyx from Combine control. (At one point, there was discussion of Dr. Breen appearing in a sequence after Alyx gets arrested by the Combine, although the scene didn’t get written).
+
+Another big action moment is a derailment sequence where Alyx intercepts the train taking her father to Nova Prospekt prison. Designer Jake Rodkin put together a rudimentary pitch for the idea using Hammer, Valve’s in-house level editor. The team quickly jumped on it to turn what would have been an off-screen moment into a full-blown action sequence. 
+
+The trick in VR, it turns out, is making sure players are looking in the right spot to see the big-budget action.
+
+“You have to use sound from a psychological perspective when you want to tell people what to do,” explains Valve effects artist Ali Razmpoosh. For the train crash, the player first hears the sound of the crash so they are triggered to look over and see the animation of the derailment.
+
+As the writers continue to refine the story, the animators work to realize specific story moments. One whiteboard in the office depicts what looks like a top-down schematic of a movie stunt sequence in City 17. Alyx’s path through a laundromat into an Alley is drawn out in red marker, while other marks indicate the placement of Metrocops and citizens on the street. Olga, the character who talks to Alyx through a window in the laundromat, is placed on the map.
+
+Valve’s iterative approach to design extended to the story. Even though the game was nearing completion, Sean Vanaman came up with an exciting misdirect in September 2019. Rather than directly telling players the G-Man is inside the Vault, Vanaman pitched the idea of a red herring, convincing players they were off to rescue another survivor of the Black Mesa incident: Gordon Freeman.
+
+To introduce this plot twist, Alyx would overhear a conversation between the Combine and a mysterious female scientist who was integral to building the Vault. The idea came so late in production that the character, voiced by Kim Dickens, could only appear as shadow play. (Her 3D character model is that of Hahn, the erstwhile villain). The scientist character, whose name the writers are keeping a secret, could also play a role in future Half-Life games.
+
+“If we end up making a Half-Life 3 it gives us another character in the universe that we can potentially use in the future,” hints Vanaman.
+
+Adding in the Gordon Freeman misdirect required pick-up voice over sessions with the actors for Eli, Russell, Alyx, and G-Man. It is yet another example of Valve continuing to evolve the narrative and game experience right up until the very end of development.
+
+Other areas of the game received similar attention to detail. The Antlion section was, up until the fall of 2019, set in a series of non-descript canals. Then artist Max Aristov suggested turning the area into a decrepit Eastern European zoo.
+
+“Jake [Rodkin] and I called up photos of an Eastern European zoo up on 
+our iPhones at a bar,” remembers Olly Moss, a famed British graphic designer known for his graphic t-shirts and movie posters. “And once we saw the photos, we said, ‘we totally have to do this.’” Over a period of weeks Moss, Chris Zima, and level designer Ken Banks flipped cement textured canals into a highly detailed zoo with signs, exhibits, and yes, even a 
+zombie zookeeper.
+
+“We sort of want it to feel like a Disney ride, there’s so much more you aren’t picking up on,” explains designer Chris Remo, who still marvels that he is working alongside some of the team who made Half-Life 1, a game that shipped when he was just 14 years old.  Remo takes particular pride in text he wrote for the in-game newspapers, which players can pick up and read in VR. Other Easter eggs include a 1990s-era Russian Surge soda can, which artist Claire Hummel created out of the grunge texture from the original Half-Life box art.
+
+The smallest of details can make the difference in VR, but by the fall of 2019, the Vault, one of the game’s most prominent levels, was still very much a work in progress. The Vault was conceived as a dizzying journey through a Twilight Zone-style apartment block with a series of puzzles, followed by an epic grenade fight against Combine guards. But time and again, playtesters reported feeling underwhelmed with the finale’s gameplay.
+
+In the original concept, the Combine cage the G-Man in an isohedron-shaped cell by pulling his presence across multiple dimensions. When the player reached the G-Man’s cage, they would “tune” these dimensions back into harmony using a slider, eventually releasing Half-Life’s legendary man of mystery.
+
+Realizing that conclusion was underwhelming, Casali came up with an ambitious yet potentially memorable surprise. Since the Vortigaunt’s Vortessence is used to power the Vault, what if Alyx was able to tap into that force, similar to a Force lightning moment in Star Wars, and use that to free the G-Man?
+
+“The idea was that the Combine accounted for a lot of things in the design of the Vault, but they didn’t think about what happens when you combine Vort energy with the little Xen crystal in Alyx’s grabbity gloves,” explains Tristan Reidford.
+
+Similar to the energy balls in Half-Life 2 that could overpower the Combine, Alyx would pull Vort energy off discharge points in the Vault and use that force to defeat the Combine guards, ultimately freeing the G-Man. Such an ambitious change added significant new gameplay coding to the final sequence.
+
+Alongside this late addition, a number of puzzles in the early part of the Vault were removed. In prior versions of the Vault, players had to solve a series of mirror matching puzzles in the apartment block, carefully placing props like a breadstick and an ashtray in the exact same position as a mirrored version of the room above their heads. The rooms and accessories stayed in the final game, but the matching sequences did not.
+
+By early fall, it became clear that Alyx wouldn’t be ready for release by the end of 2019 – especially as the team wanted to avoid any kind of serious crunch mode. Still, everyone was feeling confident the game would be ready for release by March 2020. And that meant it was time to do something everyone was dreading: figuring out how to tell the world about the game.
+
+Previous Half-Life games had been announced years in advance of their actual release dates. And, as Internet legend goes, Valve rarely met those release dates. Valve Time, as it is known, is defined by the Urban Dictionary as “The expanded time Valve uses when talking about anything that will involve them working. Like a New York minute, but in reverse.” The dictionary goes on to provide a math equation to help the reader: “The conversion factor is approximately 2-6 times whatever the stated interval is.”
+
+For Alyx, Valve wanted to run a tight and focused announcement strategy. Part of the motivation was to avoid any public Valve Time slippage. Another genuine factor? Trepidation over the Internet response. For over a decade, fans had waited, dreamed, and ruminated on when or if Valve would ever return to Half-Life. Now Valve was returning to the franchise, but not for Half-Life 3. Instead, it was making an exclusive VR game inaccessible to a vast swath of the fanbase.
+
+“I mean, we were taking our flagship franchise and making it VR only,” says Greg Coomer. “We didn’t know how it would go, and we didn’t want it to seem like we were using Half-Life to leverage our hardware.” (Alyx is best played on the Index VR headset but is also compatible with Oculus and Windows Mixed Reality headsets).
+
+“So yes, there was a lot of internal concern that we were about to give the Internet the wrong Half-Life game,” says Coomer.
+
+As summer turned to fall, Valve brought Kaci Aitchison Boyle onto the staff. A TV journalist known to Dota 2 players for helping host The International, Aitchison started working with the team on how to communicate Alyx to the outside world. “They just kept saying to me, ‘We feel really good about what we’ve made, but we’re really worried about how we let people know about what we’re working on,’” says Aitchison.
+
+The team started working on a trailer to announce the project to the world. “It had to communicate it’s not only a VR game, but also truly a Half-Life game, and it’s hard not to take one of the two of those for granted,” says Rodkin. For weeks, the team debated including a tease of the G-Man’s role in the game. Ultimately, he was included for a very brief but masterful cameo after the title card.
+
+Valve hoped fans would see Alyx as a next-generation Half-Life – and be relieved the company was back in the Half-Life business, even if it was just for a VR game. And while they wouldn’t come out and say it directly, Valve was anticipating fans to speculate on what was next in line: an actual Half-Life 3.
+
+As the trailer went through final edits, each shot carefully mapped out on a whiteboard at the office, no one was fully confident how the fans would react – including company co-founder Gabe Newell.
+
+When he emails me the night before the trailer’s release, I sense that uncertainty.
+
+“Yep, it will be interesting,” he matter-of-factly writes to me at 2:54 in the morning.
+
+After over a decade of questions, half-answers, uncertainty, and speculation, Half-Life is about to return.
+
+At 10 a.m. Seattle time on November 21, the next Half-Life game is announced with a tweet and link to the trailer. “We’re thrilled to announce Half-Life: Alyx, a new full-length entry in the Half-Life series, built by Valve for VR,” Valve said on its new Twitter account.
+
+With near-universal praise for the trailer, the team was relieved. Half-Life: Alyx was the bright end of what seemed like nowhere for so many years. To most fans, that was more than enough after over a decade of nothing.
+
+“I guess we had sort of underestimated everyone’s appetite for more single-player stuff from Valve and more Half-Life,” deadpans Coomer.
+
+===Chpter 15===
+It’s early March 2020, and an invisible headcrab is on the loose inside Half-Life: Alyx.
+
+“This one has got me a little concerned, it doesn’t have a reliable repro,” says David Speyrer, referring to the ability to reproduce the circumstances in which the headcrab invisibly starts attacking the player.
+
+“With every bug, we have to balance the risk of fixing it against the value of fixing it,” he says. 
+
+Speyrer would typically walk around the development floor, discuss the bug with his fellow coders, and ask Valve’s playtest lab to run a series of tests. Today, however, is far from normal. East Seattle, home to Valve, has become an unfortunate early hotspot in the United States for the COVID-19 pandemic, with the first death reported in Seattle on February 28. With a worker in Valve’s 31-story office tower testing positive for the virus, the entire company transitioned to work from home for the final few weeks of development.
+
+“Normally shutting down a project, everyone is crammed into a room,” admits Walker, who is finishing the game from his office desk at home. “Now, we are massively distributed, and all are just working from home and playtesting.”
+
+The final hours of game development in 2020 are very different than they were in 1998 on Half-Life. Back then, day one patches were non-existent – the game came on a CD-ROM that had to be pressed at a plant weeks before it arrived in a box to customers. Today, Valve can make changes to the code right up until hours before an all-digital launch on Steam. And if anything is broken, the game can be updated in real-time. Does that decrease the pressure to find every last bug?  Not really, says Speyrer.
+
+“The first impression is everything on a narrative game,” he explains.
+
+On past Half-Life games, the game going “gold” was celebrated with a ceremonial piñata whack by a crowbar. A piñata wasn’t in the cards for Alyx, but Valve’s Kelly Cline had spent weeks preparing an elaborate setup of cakes for a team celebration. There was to be a mock wooden crate made of marbled cake with rum buttercream, a life-size headcrab cake of red velvet and strawberry buttercream, chocolate coins with a lambda symbol and, of course, Valve’s most famous snack: the big pink cookie. But with Seattle under a shelter in place order, the cakes – and the celebration – would be postponed, as would Valve’s annual company vacation to Hawaii in April, and a Half-Life: Alyx press event scheduled for mid-March at the office.
+
+Luckily most of the core game development had been completed before the pandemic. The final days amounted to little more than everyone playtesting the game at home, jumping on Zoom video conference calls to discuss bug fixes, and conducting interviews with the press over video conference.
+
+As the days ticked down to March 23, the game’s official release date, the Valve office was utterly vacant. If you were to walk through the development floor, you’d see nothing more than mouse cursors swirling across screens, as employees used remote desktop to logon to their machines and complete last-minute fixes.
+
+A similarly surreal moment came at 10 a.m. Seattle time on March 23, the launch of the game. Over 130 employees gathered for a massive Zoom video conference to release Alyx to the world with the press of a button. In a throwback to the original game 22 years ago, Dario Casali set his Zoom backdrop to a screenshot of a head crab attacking the camera in Half-Life.  
+
+In a way, the staff at Valve experienced the launch of Alyx just like millions of fans around the world – sitting at their home computers, ready to watch top influencers, streamers, and press uncover the secrets hidden inside City 17. Even Gabe Newell has a surreal experience with this game’s launch – from a remote, ok very remote location: his boat on the South Pacific Ocean.  “Oddly enough I’m somewhat stuck in New Zealand right now which adds to the surreal feeling of Shipping in the Time of Cholera,” he said in an e-mail to me a few hours before the game’s public release.
+
+With press reviews that scored Alyx higher than any previous Half-Life game, the team was beyond relieved that Alyx lived up to expectations.
+
+“It was four years of work for a 16-hour game,” reflects Dario Casali. “So four hours of gameplay a year. I think, ultimately, what we’ve built exceeds the polish of any previous Half-Life game.”
+
+With the success of Alyx, the obvious question is, what’s next for Valve? No Valve press interview goes by without a journalist trying to elicit some kind of confirmation or hint of Valve’s plans for Half-Life beyond Alyx.  The hope, of course, is that Alyx isn’t a one-off, but the start of a new era of single-player games from the larger, combined team at Valve. Armed with the now finished Source 2 engine, and void of the trepidations associated with returning to Half-Life, the team is energized to dive into what’s next.
+
+“The ice has been broken, now we’re hoping to smash through the ice completely,” hints Phil Co. “We’re not afraid of Half-Life no more.”
+
+“Now that we’ve got a taste of making big stuff again we want to keep doing that. Going from this to a new big thing, which will be even bigger, is pretty exciting,” says Tejeev Kohli.
+
+Privately, most of the team hopes that the next big thing will indeed be a full-scale Half-Life game built not for VR, but as a game accessible across all traditional gaming platforms. But given the scope of first-person action games, where development teams number into the hundreds, some at Valve wonder if the company wants to take on such a large project. Others wonder if more VR games might be in the future, as Valve continues to push further into the VR hardware space. Maybe there will be surprises as well, including a top-secret new project that another small team at Valve has been working on since the first part of 2018.
+
+If anything, the process of shipping Alyx has reminded Valve how much talent it still has in the building to create world-class, cutting edge video games, no matter the genre or platform. 
+
+“We always knew that competency was here, but it’s great to be able to flex it again, both for the fans and for internal morale,” says Greg Coomer.
+
+One thing is more tractable: Valve’s future won’t just be defined by software. The hardware labs are already working on what’s next, with Jeremy Selan hinting that the Index is really “two years old technology” at this point. The push into VR, and perhaps other types of hardware, will continue. “Gabe and I have a lot of ideas on how to make hardware more like software,” Selan says with a knowing smirk.
+
+In press interviews, Newell has teased brain-computer interfaces as one future path for Valve’s hardware. Imagine a headset that can read a player’s brain to determine if they are happy, sad, frustrated, bored, focused, or distracted while playing a game. Like Nintendo, Valve sees its future as not just a software developer, but as a tightly integrated creative studio that uses hardware, software, and imagination to impact the broader entertainment landscape.
+
+It seems a new era of Valve is upon us – a belle epoque with a finished Source 2 engine powering a new generation of games. Valve can, however, be unpredictable, and there’s no guarantee it won’t once again burn years of work until it finds (and ships) its next worthy project. 
+
+None of this is lost on Jay Benson, who now has a 5-year-old daughter and a 2-year-old son at home with his wife Jenni. A few weeks ago, when he called up the Half-Life: Alyx trailer on the home computer, Benson’s daughter came rushing over to the screen.
+
+“It’s Daddy’s game!” she said excitedly, pointing her finger at the screen.  
+
+Benson’s memories of playing Half-Life with his father flashed before him. Twenty-two years later, the same franchise was connecting him with his daughter. 
+
+Much like Eli ceremoniously passing the crowbar back to Gordon in the game’s end credits scene, the magic of Half-Life is now being passed to a new generation of gamers.
